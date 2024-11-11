@@ -1,26 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\git\\alien-game\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\git\\alien-game\\assets\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\git\\alien-game\\assets\\script\\handdrawing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\handdrawing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\git\\alien-game\\assets\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.sdk.interaction@69.0.1\\Runtime\\Scripts\\Grab\\HandGrabAPI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.interaction@69.0.1\\Runtime\\Scripts\\Grab\\HandGrabAPI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.sdk.core@69.0.1\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@69.0.1\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|c:\\users\\user\\onedrive\\\u6587\u4EF6\\github\\alien-game\\assets\\wandpathcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\wandpathcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,64 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "audioPlayer.cs",
-              "DocumentMoniker": "C:\\git\\alien-game\\Assets\\audioPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\audioPlayer.cs",
-              "ToolTip": "C:\\git\\alien-game\\Assets\\audioPlayer.cs",
-              "RelativeToolTip": "Assets\\audioPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "WandPathCreator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\WandPathCreator.cs",
+              "RelativeDocumentMoniker": "Assets\\WandPathCreator.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\WandPathCreator.cs",
+              "RelativeToolTip": "Assets\\WandPathCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T14:32:41.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "audioController.cs",
-              "DocumentMoniker": "C:\\git\\alien-game\\Assets\\audioController.cs",
-              "RelativeDocumentMoniker": "Assets\\audioController.cs",
-              "ToolTip": "C:\\git\\alien-game\\Assets\\audioController.cs",
-              "RelativeToolTip": "Assets\\audioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T14:31:33.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HandDrawing.cs",
-              "DocumentMoniker": "C:\\git\\alien-game\\Assets\\Script\\HandDrawing.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\HandDrawing.cs",
-              "ToolTip": "C:\\git\\alien-game\\Assets\\Script\\HandDrawing.cs",
-              "RelativeToolTip": "Assets\\Script\\HandDrawing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T14:02:08.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HandGrabAPI.cs",
-              "DocumentMoniker": "C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.sdk.interaction@69.0.1\\Runtime\\Scripts\\Grab\\HandGrabAPI.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.interaction@69.0.1\\Runtime\\Scripts\\Grab\\HandGrabAPI.cs",
-              "ToolTip": "C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.sdk.interaction@69.0.1\\Runtime\\Scripts\\Grab\\HandGrabAPI.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.interaction@69.0.1\\Runtime\\Scripts\\Grab\\HandGrabAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T14:00:35.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OVRConfigurationTaskUpdaterSummary.cs",
-              "DocumentMoniker": "C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.sdk.core@69.0.1\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@69.0.1\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
-              "ToolTip": "C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.sdk.core@69.0.1\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@69.0.1\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAADwv9oAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:53:16.27Z",
+              "WhenOpened": "2024-11-11T16:27:28.309Z",
               "EditorCaption": ""
             }
           ]
