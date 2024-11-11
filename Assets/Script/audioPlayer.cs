@@ -31,6 +31,8 @@ public class AudioPlayer : MonoBehaviour
         if (other.CompareTag("Alien")) // Check if the plant collided with the alien
         {
             plantAudioSource.Play();
+            
         }
+        Debug.Log("plant touch");
     }
 }
