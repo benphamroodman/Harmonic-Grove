@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/*
 public class AudioPlayer : MonoBehaviour
 {
     public AudioClip plantSound; // Public field for the jump sound effect
@@ -28,11 +29,41 @@ public class AudioPlayer : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Alien")) // Check if the plant collided with the alien
+        if (other.CompareTag("wand")) // Check if the plant collided with the alien
         {
             plantAudioSource.Play();
             
         }
         Debug.Log("plant touch");
+    }
+}
+*/
+
+public class AudioPlayer : MonoBehaviour {
+    public AudioClip plantSound; // 音效片段
+    private AudioSource plantAudioSource; // 音效播放器
+
+    void Start() {
+        // 添加一個 AudioSource 給這個物件
+        plantAudioSource = gameObject.AddComponent<AudioSource>();
+
+        // 設定音效片段
+        if (plantSound != null) {
+            plantAudioSource.clip = plantSound;
+        }
+
+        // 確保這個 AudioSource 的設置不影響其他音頻
+        plantAudioSource.spatialBlend = 1.0f; // 3D 音效
+        plantAudioSource.playOnAwake = false; // 不在啟動時播放
+    }
+
+    void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("wand")) // 確認碰撞的物件
+        {
+            // 使用 PlayOneShot 播放音效，避免影響其他音頻
+            plantAudioSource.PlayOneShot(plantSound);
+
+            Debug.Log("Plant sound played.");
+        }
     }
 }
