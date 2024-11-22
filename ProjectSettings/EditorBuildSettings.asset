@@ -8,8 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PassthroughScene.unity
     guid: 66c05c526a30c3e45851e187570afa06
+  - enabled: 1
+    path: Assets/MusicGeneratorMain/Assets/Scenes/MusicGeneratorUIEditorScene.unity
+    guid: 876852d0d22ba4543a4438d2522adfd2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: be210d97ef0b347799bd5557048205a1,
+      type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 7bbc83cb9efeed84f8f0d8e4bfec86a1,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 33e10d442a4f747e394aa6a532a8736f,
       type: 2}
