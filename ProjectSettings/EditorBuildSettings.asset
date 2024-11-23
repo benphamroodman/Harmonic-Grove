@@ -16,6 +16,8 @@ EditorBuildSettings:
       type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 7bbc83cb9efeed84f8f0d8e4bfec86a1,
       type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: fc737f81ea419cc48aab892a232f7f16,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 33e10d442a4f747e394aa6a532a8736f,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6a8f0ce9a044b4f53842a93b78a9217b,

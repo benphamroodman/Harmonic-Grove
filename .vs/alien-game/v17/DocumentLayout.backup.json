@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|c:\\users\\user\\onedrive\\\u6587\u4EF6\\github\\alien-game\\assets\\wandpathcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|c:\\users\\user\\onedrive\\\u6587\u4EF6\\github\\alien-game\\assets\\script\\animatehandoninput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\animatehandoninput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\assets\\alienfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\alienfollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\assets\\wandpathcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\wandpathcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\assets\\script\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,6 +31,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AnimateHandOnInput.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\AnimateHandOnInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AnimateHandOnInput.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\AnimateHandOnInput.cs",
+              "RelativeToolTip": "Assets\\Script\\AnimateHandOnInput.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:07:11.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "audioPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\audioPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\audioPlayer.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\audioPlayer.cs",
+              "RelativeToolTip": "Assets\\Script\\audioPlayer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:35:44.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlienFollower.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\AlienFollower.cs",
+              "RelativeDocumentMoniker": "Assets\\AlienFollower.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\AlienFollower.cs",
+              "RelativeToolTip": "Assets\\AlienFollower.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:44:52.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WandPathCreator.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\WandPathCreator.cs",
               "RelativeDocumentMoniker": "Assets\\WandPathCreator.cs",
@@ -26,8 +75,7 @@
               "RelativeToolTip": "Assets\\WandPathCreator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T16:27:28.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T16:27:28.309Z"
             }
           ]
         }
