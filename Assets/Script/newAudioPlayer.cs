@@ -7,36 +7,35 @@ using UnityEngine.SceneManagement;
 
 namespace ProcGenMusic
 {
-public class NewAudioPlayer : MonoBehaviour {
+    public class NewAudioPlayer : MonoBehaviour {
 
+        [SerializeField]
+        private MusicGenerator mMusicGenerator;
 
-    [SerializeField]
-    private MusicGenerator mMusicGenerator;
+        [SerializeField]
+        private int[] mInstrumentIndices;
 
-    [SerializeField]
-    private int[] mInstrumentIndices;
+        private NewInstrumentHandler[] mInstrumentHandlers;
 
-    private NewInstrumentHandler[] mInstrumentHandlers;
+        void Start() {
 
-    void Start() {
+            mInstrumentHandlers = new NewInstrumentHandler[mInstrumentIndices.Length];
+            for (var index = 0; index < mInstrumentHandlers.Length; index++)
+            {
+                mInstrumentHandlers[index] = new NewInstrumentHandler();
+                mInstrumentHandlers[index].Initialize(mMusicGenerator, mInstrumentIndices[index]);
+            }
+        }
 
-        mInstrumentHandlers = new NewInstrumentHandler[mInstrumentIndices.Length];
-        for (var index = 0; index < mInstrumentHandlers.Length; index++)
-        {
-            mInstrumentHandlers[index] = new NewInstrumentHandler();
-            mInstrumentHandlers[index].Initialize(mMusicGenerator, mInstrumentIndices[index]);
+        void OnTriggerEnter(Collider other) {
+            if (other.CompareTag("wand")) 
+            {
+
+                // Play mInstrumentHandlers[0]
+                mInstrumentHandlers[0].PlayNote();
+
+                Debug.Log("Plant sound played.");
+            }
         }
     }
-
-    void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("wand")) 
-        {
-
-            // Play mInstrumentHandlers[0]
-            mInstrumentHandlers[0].PlayNote();
-
-            Debug.Log("Plant sound played.");
-        }
-    }
-}
 }
