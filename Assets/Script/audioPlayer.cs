@@ -40,27 +40,27 @@ public class AudioPlayer : MonoBehaviour
 */
 
 public class AudioPlayer : MonoBehaviour {
-    public AudioClip plantSound; // ­µ®Ä¤ù¬q
-    private AudioSource plantAudioSource; // ­µ®Ä¼½©ñ¾¹
+    public AudioClip plantSound; // ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½q
+    private AudioSource plantAudioSource; // ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½
 
     void Start() {
-        // ²K¥[¤@­Ó AudioSource µ¹³o­Óª«¥ó
+        // ï¿½Kï¿½[ï¿½@ï¿½ï¿½ AudioSource ï¿½ï¿½ï¿½oï¿½Óªï¿½ï¿½ï¿½
         plantAudioSource = gameObject.AddComponent<AudioSource>();
 
-        // ³]©w­µ®Ä¤ù¬q
+        // ï¿½]ï¿½wï¿½ï¿½ï¿½Ä¤ï¿½ï¿½q
         if (plantSound != null) {
             plantAudioSource.clip = plantSound;
         }
 
-        // ½T«O³o­Ó AudioSource ªº³]¸m¤£¼vÅT¨ä¥L­µÀW
-        plantAudioSource.spatialBlend = 1.0f; // 3D ­µ®Ä
-        plantAudioSource.playOnAwake = false; // ¤£¦b±Ò°Ê®É¼½©ñ
+        // ï¿½Tï¿½Oï¿½oï¿½ï¿½ AudioSource ï¿½ï¿½ï¿½]ï¿½mï¿½ï¿½ï¿½vï¿½Tï¿½ï¿½Lï¿½ï¿½ï¿½W
+        plantAudioSource.spatialBlend = 1.0f; // 3D ï¿½ï¿½ï¿½ï¿½
+        plantAudioSource.playOnAwake = false; // ï¿½ï¿½ï¿½bï¿½Ò°Ê®É¼ï¿½ï¿½ï¿½
     }
 
     void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("wand")) // ½T»{¸I¼²ªºª«¥ó
+        if (other.CompareTag("wand")) // ï¿½Tï¿½{ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         {
-            // ¨Ï¥Î PlayOneShot ¼½©ñ­µ®Ä¡AÁ×§K¼vÅT¨ä¥L­µÀW
+            // ï¿½Ï¥ï¿½ PlayOneShot ï¿½ï¿½ï¿½ñ­µ®Ä¡Aï¿½×§Kï¿½vï¿½Tï¿½ï¿½Lï¿½ï¿½ï¿½W
             plantAudioSource.PlayOneShot(plantSound);
 
             Debug.Log("Plant sound played.");
