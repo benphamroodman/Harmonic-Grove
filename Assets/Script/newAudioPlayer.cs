@@ -15,24 +15,30 @@ namespace ProcGenMusic
         [SerializeField]
         private int[] mInstrumentIndices;
 
-        private NewInstrumentHandler[] mInstrumentHandlers;
+        private NewInstrumentHandler[] newInstrumentHandlers;
 
         void Start() {
 
-            mInstrumentHandlers = new NewInstrumentHandler[mInstrumentIndices.Length];
-            for (var index = 0; index < mInstrumentHandlers.Length; index++)
+            Debug.Log("Starting audio player!");
+            newInstrumentHandlers = new NewInstrumentHandler[mInstrumentIndices.Length];
+            for (var index = 0; index < newInstrumentHandlers.Length; index++)
             {
-                mInstrumentHandlers[index] = new NewInstrumentHandler();
-                mInstrumentHandlers[index].Initialize(mMusicGenerator, mInstrumentIndices[index]);
+                newInstrumentHandlers[index] = new NewInstrumentHandler();
+                newInstrumentHandlers[index].Initialize(mMusicGenerator, mInstrumentIndices[index]);
             }
         }
+
+        /**void Update() {
+            // Play newInstrumentHandlers[0]
+            newInstrumentHandlers[0].PlayNote();
+        }**/
 
         void OnTriggerEnter(Collider other) {
             if (other.CompareTag("wand")) 
             {
 
-                // Play mInstrumentHandlers[0]
-                mInstrumentHandlers[0].PlayNote();
+                // Play newInstrumentHandlers[0]
+                newInstrumentHandlers[0].PlayNote();
 
                 Debug.Log("Plant sound played.");
             }
