@@ -39,14 +39,17 @@ public class ElevationBasedInstrumentAdder : MonoBehaviour
     {
         if (yPosition < 5f)
         {
+            Debug.Log("Low Elevation");
             return "Low Elevation";
         }
         else if (yPosition >= 5f && yPosition <= 8f)
         {
+            Debug.Log("Medium Elevation");
             return "Medium Elevation";
         }
         else
         {
+            Debug.Log("High Elevation");
             return "High Elevation";
         }
     }
