@@ -28,10 +28,10 @@ namespace ProcGenMusic
             }
         }
 
-        void Update() {
+        /**void Update() {
             // Play newInstrumentHandlers[0]
             newInstrumentHandlers[0].PlayNote();
-        }
+        }**/
 
         void OnTriggerEnter(Collider other) {
             if (other.CompareTag("wand")) 

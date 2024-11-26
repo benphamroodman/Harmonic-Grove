@@ -1312,6 +1312,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 234247468}
+    - targetCorrespondingSourceObject: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 234247452}
     - targetCorrespondingSourceObject: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca,
         type: 3}
@@ -1450,6 +1454,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 05000000
+--- !u!114 &234247468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234247450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &243140655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,6 +2445,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 398607425}
+    - targetCorrespondingSourceObject: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 398607414}
     - targetCorrespondingSourceObject: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca,
         type: 3}
@@ -2567,6 +2587,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 07000000
+--- !u!114 &398607425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398607412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &400572198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3054,6 +3086,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 469725920}
+    - targetCorrespondingSourceObject: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 469725910}
     - targetCorrespondingSourceObject: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b,
         type: 3}
@@ -3192,6 +3228,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 0a000000
+--- !u!114 &469725920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469725907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &487712399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3468,6 +3516,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 504766276}
+    - targetCorrespondingSourceObject: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 504766265}
     - targetCorrespondingSourceObject: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca,
         type: 3}
@@ -3606,6 +3658,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 06000000
+--- !u!114 &504766276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504766263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &513439029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3805,6 +3869,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 534872660}
+    - targetCorrespondingSourceObject: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 534872649}
     - targetCorrespondingSourceObject: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b,
         type: 3}
@@ -3943,6 +4011,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 09000000
+--- !u!114 &534872660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534872647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &543585960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9996,6 +10076,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1627399213}
+    - targetCorrespondingSourceObject: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1627399202}
     - targetCorrespondingSourceObject: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b,
         type: 3}
@@ -10134,6 +10218,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 08000000
+--- !u!114 &1627399213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627399200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1662623515
 PrefabInstance:
   m_ObjectHideFlags: 0
