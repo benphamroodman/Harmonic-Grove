@@ -7876,7 +7876,7 @@ PrefabInstance:
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
       propertyPath: mDefaultConfig
-      value: Tutorial
+      value: DungeonBoss
       objectReference: {fileID: 0}
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}

@@ -1145,7 +1145,7 @@ namespace ProcGenMusic
 		private void Update()
 		{
 			UpdateState( Time.deltaTime );
-			Debug.Log(InstrumentSet.Instruments.Count);
+			// Debug.Log(InstrumentSet.Instruments.Count);
 		}
 
 		/// <summary>
