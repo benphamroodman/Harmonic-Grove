@@ -175,6 +175,7 @@ namespace ProcGenMusic
 		{
 			InstrumentSet.SetData( ConfigurationData );
 			mAudioHandler.InitializeGlobalEffects();
+			Debug.Log("Set data for instrument set! The set has " + InstrumentSet.Instruments.Count + " elements.");
 		}
 
 		/// <summary>
@@ -508,7 +509,7 @@ namespace ProcGenMusic
 			{
 				RemoveInstrument( index, instrumentSet );
 			}
-
+			Debug.Log("We're clearing the instrument set for some reason.");
 			instrumentSet.Instruments.Clear();
 		}
 
@@ -523,7 +524,7 @@ namespace ProcGenMusic
 			{
 				return;
 			}
-
+			Debug.Log("We're removing the instrument for some reason.");
 			var instrumentName = instrumentSet.Instruments[index].InstrumentData.InstrumentType;
 			InstrumentWillBeRemoved.Invoke( instrumentSet.Instruments[index] );
 			instrumentSet.Instruments[index] = null;
@@ -1133,6 +1134,7 @@ namespace ProcGenMusic
 			if ( OnHasVisiblePlayer() == false ) //without the UI, we load manually, as the UI panel is not going to do it, and we don't need ui initialized.
 			{
 				StartCoroutine( LoadConfiguration( mDefaultConfig, mAutoPlay ? GeneratorState.Playing : GeneratorState.Ready ) );
+				Debug.Log("Loaded the configuration " + DefaultConfigurationName);
 			}
 		}
 
@@ -1143,6 +1145,7 @@ namespace ProcGenMusic
 		private void Update()
 		{
 			UpdateState( Time.deltaTime );
+			// Debug.Log(InstrumentSet.Instruments.Count);
 		}
 
 		/// <summary>
