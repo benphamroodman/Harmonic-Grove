@@ -5,12 +5,6 @@ public class ElevationBasedInstrumentAdder : MonoBehaviour
     // Variable to track the last known elevation range
     private string lastElevationRange;
 
-    /**void Start()
-    {
-        // Initialize lastElevationRange based on the current position
-        UpdateElevationRange();
-    }**/
-
     void Update()
     {
         // Check if the elevation range has changed, and if so, call the function
