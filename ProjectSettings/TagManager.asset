@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PathSegment
   - Alien
+  - wand
+  - pencil
   layers:
   - Default
   - TransparentFX
