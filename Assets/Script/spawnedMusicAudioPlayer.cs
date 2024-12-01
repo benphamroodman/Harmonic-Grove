@@ -17,7 +17,7 @@ namespace ProcGenMusic
 
         private NewInstrumentHandler[] newInstrumentHandlers;
 
-        void Start() {
+        void Awake() {
             newInstrumentHandlers = new NewInstrumentHandler[mInstrumentIndices.Length];
             for (var index = 0; index < newInstrumentHandlers.Length; index++)
             {
