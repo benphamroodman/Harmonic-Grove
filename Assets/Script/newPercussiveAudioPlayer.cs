@@ -30,7 +30,6 @@ namespace ProcGenMusic
 
         void Start()
         {
-            Debug.Log("Starting audio player!");
             newInstrumentHandlers = new NewInstrumentHandler[mInstrumentIndices.Length];
             for (var index = 0; index < newInstrumentHandlers.Length; index++)
             {
