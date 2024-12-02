@@ -26,22 +26,30 @@ namespace ProcGenMusic
 			// just index sanity check
 			if (mInstrumentIndex >= mMusicGenerator.InstrumentSet.Instruments.Count)
 			{
-				// Debug.Log("Something is wrong with the InstumentSet. mInstrumentIndex is " + mInstrumentIndex + 
-				// 	", while the InstrumentSet.count is " + mMusicGenerator.InstrumentSet.Instruments.Count + ".");
+				Debug.Log("Something is wrong with the InstumentSet. mInstrumentIndex is " + mInstrumentIndex + 
+					", while the InstrumentSet.count is " + mMusicGenerator.InstrumentSet.Instruments.Count + ".");
 				return;
 			}
 
 			// here we grab an instrument
 			var instrument = mMusicGenerator.InstrumentSet.Instruments[mInstrumentIndex];
+
+			Debug.Log("passed step 1");
 			
 			// find our progression step (-1 is set on progression reset, hence the range checking)
 			var step = Mathf.Max(mMusicGenerator.InstrumentSet.ProgressionStepsTaken, 0);
+
+			Debug.Log("passed step 2");
 			
 			// find our current chord progression step
 			var progressionStep = mMusicGenerator.InstrumentSet.MusicGenerator.CurrentChordProgression[step];
+
+			Debug.Log("passed step 3");
 			
 			// Generate some notes
 			var notes = mMusicGenerator.InstrumentSet.Instruments[mInstrumentIndex].GetProgressionNotes(progressionStep, true);
+
+			Debug.Log("passed step 4");
 
 			foreach (var note in notes)
 			{
@@ -49,12 +57,16 @@ namespace ProcGenMusic
 				if (note == MusicConstants.UnplayedNote)
 				{
 					continue;
+					Debug.Log("Unplayed not");
 				}
+
+				Debug.Log("passed step 5");
 
 				// directly play a note through the music generator
 				mMusicGenerator.PlayAudioClip(mMusicGenerator.InstrumentSet, instrument.InstrumentData.InstrumentType, note,
 					instrument.InstrumentData.Volume,
 					mInstrumentIndex);
+				Debug.Log("passed step 6");
 			}
 		}
 
