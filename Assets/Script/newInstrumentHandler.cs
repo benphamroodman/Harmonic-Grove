@@ -26,8 +26,8 @@ namespace ProcGenMusic
 			// just index sanity check
 			if (mInstrumentIndex >= mMusicGenerator.InstrumentSet.Instruments.Count)
 			{
-				Debug.Log("Something is wrong with the InstumentSet. mInstrumentIndex is " + mInstrumentIndex + 
-						", while the InstrumentSet.count is " + mMusicGenerator.InstrumentSet.Instruments.Count + ".");
+				// Debug.Log("Something is wrong with the InstumentSet. mInstrumentIndex is " + mInstrumentIndex + 
+				// 	", while the InstrumentSet.count is " + mMusicGenerator.InstrumentSet.Instruments.Count + ".");
 				return;
 			}
 
@@ -56,8 +56,6 @@ namespace ProcGenMusic
 					instrument.InstrumentData.Volume,
 					mInstrumentIndex);
 			}
-
-			Debug.Log("Done playing the note!");
 		}
 
 		/// <summary>

@@ -62,13 +62,13 @@
     "SingleClipIsRepeating": false,
     "IsSingleClip": false,
     "ProgressionRate": 8,
-    "mTempo": 250.0,
+    "mTempo": 240.0,
     "mRepeatMeasuresNum": 1,
     "mLeitmotifProgression": [
-        2,
+        1,
+        4,
+        4,
         5,
-        5,
-        6,
         1,
         4,
         4,
@@ -89,7 +89,7 @@
     "mDominantInfluence": 100.0,
     "mTritoneSubInfluence": 0.0,
     "NumLeitmotifMeasures": 1,
-    "mNumForcedPercussionMeasures": 1,
+    "mNumForcedPercussionMeasures": 0,
     "Instruments": [
         {
             "mChordSize": 3,
@@ -109,7 +109,7 @@
                     "keys": []
                 }
             },
-            "mInstrumentType": "CelloLong",
+            "mInstrumentType": "P_Triangle",
             "mInstrumentName": "",
             "mIsSynth": false,
             "mUseForcedPercussion": false,
@@ -285,7 +285,7 @@
             "manualBeats": {
                 "keys": []
             },
-            "mOddsOfUsingChordNotes": 0.0,
+            "mOddsOfUsingChordNotes": 80.0,
             "mStrumVariation": 0.0,
             "mRedundancyAvoidance": 100.0,
             "mStrumLength": 0.0,
@@ -427,7 +427,7 @@
             "manualBeats": {
                 "keys": []
             },
-            "mOddsOfUsingChordNotes": 0.0,
+            "mOddsOfUsingChordNotes": 80.0,
             "mStrumVariation": 0.0,
             "mRedundancyAvoidance": 100.0,
             "mStrumLength": 0.0,
@@ -569,7 +569,7 @@
             "manualBeats": {
                 "keys": []
             },
-            "mOddsOfUsingChordNotes": 0.0,
+            "mOddsOfUsingChordNotes": 80.0,
             "mStrumVariation": 0.0,
             "mRedundancyAvoidance": 100.0,
             "mStrumLength": 0.0,
@@ -711,7 +711,7 @@
             "manualBeats": {
                 "keys": []
             },
-            "mOddsOfUsingChordNotes": 0.0,
+            "mOddsOfUsingChordNotes": 80.0,
             "mStrumVariation": 0.0,
             "mRedundancyAvoidance": 100.0,
             "mStrumLength": 0.0,
@@ -994,10 +994,6 @@
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": [
-                    4,
-                    6,
-                    8,
-                    12
                 ]
             },
             "mOddsOfUsingChordNotes": 50.0,
@@ -1141,9 +1137,6 @@
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": [
-                    2,
-                    6,
-                    10
                 ]
             },
             "mOddsOfUsingChordNotes": 50.0,
@@ -1288,7 +1281,7 @@
             "manualBeats": {
                 "keys": []
             },
-            "mOddsOfUsingChordNotes": 0.0,
+            "mOddsOfUsingChordNotes": 80.0,
             "mStrumVariation": 0.0,
             "mRedundancyAvoidance": 100.0,
             "mStrumLength": 0.0,
@@ -1714,7 +1707,7 @@
             "manualBeats": {
                 "keys": []
             },
-            "mOddsOfUsingChordNotes": 0.0,
+            "mOddsOfUsingChordNotes": 80.0,
             "mStrumVariation": 0.0,
             "mRedundancyAvoidance": 100.0,
             "mStrumLength": 0.0,
