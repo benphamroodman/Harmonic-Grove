@@ -22,7 +22,7 @@ namespace ProcGenMusic
 
         private NewInstrumentHandler[] newInstrumentHandlers;
 
-        private bool isAudioPlayerActive = true;  // Boolean to track if the audio player is active
+        private bool isAudioPlayerActive = false;  // Boolean to track if the audio player is active
         private bool isColliding = false;  // Flag to track whether the wand is currently colliding with the instrument
 
         private bool hasPlayedNote = false;  // Boolean to track if the note has been played for the current beat
