@@ -209,6 +209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: drum_v2_ani
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7e1b2b148636b4d458af7a172163d4f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -232,11 +237,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7e1b2b148636b4d458af7a172163d4f1,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 515518486}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7e1b2b148636b4d458af7a172163d4f1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 515518485}
+      addedObject: {fileID: 515518491}
   m_SourcePrefab: {fileID: 100100000, guid: 7e1b2b148636b4d458af7a172163d4f1, type: 3}
 --- !u!1001 &13355906
 PrefabInstance:
@@ -1758,6 +1759,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 05000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 0}
 --- !u!114 &234247468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2692,6 +2695,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: guitar_ani
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7d6e4b030e18e71419e0bac9cdc31e99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2716,10 +2724,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 718319222}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d6e4b030e18e71419e0bac9cdc31e99,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 718319221}
   m_SourcePrefab: {fileID: 100100000, guid: 7d6e4b030e18e71419e0bac9cdc31e99, type: 3}
 --- !u!1001 &398607410
 PrefabInstance:
@@ -2972,6 +2976,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 07000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 0}
 --- !u!114 &398607425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4273,6 +4279,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 0a000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 0}
 --- !u!114 &469725920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4615,6 +4623,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 06000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 0}
 --- !u!114 &504766276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5033,32 +5043,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &515518485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515518482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &515518486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515518482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mMusicGenerator: {fileID: 1375224365}
-  mInstrumentIndices: 05000000
 --- !u!114 &515518487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5259,6 +5243,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 22.994528, y: 50, z: 50}
   m_Center: {x: 0, y: 25, z: 0}
+--- !u!114 &515518491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515518482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a9d6c9eee846b4b9502a99084bdc6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 1375224365}
+  mInstrumentIndices: 090000000b000000
+  beatsToPlayOn: 01000000
+  tempoTracker: {fileID: 2000672635}
 --- !u!1001 &534872645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5689,6 +5689,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 09000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 0}
 --- !u!114 &534872660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6764,6 +6766,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: triangle_ani
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c3ba3aa9fa9e29342b87cd8bac0cece3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6788,10 +6795,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1069648671}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c3ba3aa9fa9e29342b87cd8bac0cece3,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1069648670}
   m_SourcePrefab: {fileID: 100100000, guid: c3ba3aa9fa9e29342b87cd8bac0cece3, type: 3}
 --- !u!1 &648822833 stripped
 GameObject:
@@ -7385,18 +7388,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &718319221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718319218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &718319222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7410,7 +7401,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
-  mInstrumentIndices: 12000000
+  mInstrumentIndices: 030000000400000005000000
+  beatsToPlayOn: 03000000070000000b0000000e0000000f000000
+  tempoTracker: {fileID: 2000672635}
 --- !u!114 &718319223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7948,6 +7941,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: string_ani
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 08527db414d8cc146bdd20af79efb083,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7972,10 +7970,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1519124665}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 08527db414d8cc146bdd20af79efb083,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1519124664}
   m_SourcePrefab: {fileID: 100100000, guid: 08527db414d8cc146bdd20af79efb083, type: 3}
 --- !u!1 &772527187
 GameObject:
@@ -10073,18 +10067,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1069648670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069648667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1069648671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10098,7 +10080,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
-  mInstrumentIndices: 2c000000
+  mInstrumentIndices: 060000000700000008000000
+  beatsToPlayOn: 050000000d000000
+  tempoTracker: {fileID: 2000672635}
 --- !u!114 &1069648672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12794,7 +12778,12 @@ PrefabInstance:
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
       propertyPath: mDefaultConfig
-      value: Tutorial
+      value: Scene01.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
+        type: 3}
+      propertyPath: mConfigurationData.version
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
@@ -12804,7 +12793,7 @@ PrefabInstance:
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
       propertyPath: mConfigurationData.ConfigurationName
-      value: DungeonBoss
+      value: DefaultConfig
       objectReference: {fileID: 0}
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
@@ -13559,18 +13548,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1519124664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1519124661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 543f48ceb06eb0c4fa5e48ada49ef843, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1519124665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13736,7 +13713,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
-  mInstrumentIndices: 23000000
+  mInstrumentIndices: 000000000100000002000000
+  beatsToPlayOn: 0100000003000000090000000b000000
+  tempoTracker: {fileID: 2000672635}
 --- !u!54 &1519124667
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14147,7 +14126,7 @@ PrefabInstance:
     - target: {fileID: 4207998563082702715, guid: 05b4dc09cb1c65345b92d8bdcfa596db,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.809
+      value: -5.28
       objectReference: {fileID: 0}
     - target: {fileID: 4207998563082702715, guid: 05b4dc09cb1c65345b92d8bdcfa596db,
         type: 3}
@@ -15463,6 +15442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 08000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 0}
 --- !u!114 &1627399213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17902,6 +17883,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 0}
   mInstrumentIndices: 32000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 0}
 --- !u!1 &1792870229
 GameObject:
   m_ObjectHideFlags: 0
@@ -20232,7 +20215,7 @@ PrefabInstance:
     - target: {fileID: 4207998563082702715, guid: 05b4dc09cb1c65345b92d8bdcfa596db,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4440002
+      value: -5.165
       objectReference: {fileID: 0}
     - target: {fileID: 4207998563082702715, guid: 05b4dc09cb1c65345b92d8bdcfa596db,
         type: 3}
@@ -20242,7 +20225,7 @@ PrefabInstance:
     - target: {fileID: 4207998563082702715, guid: 05b4dc09cb1c65345b92d8bdcfa596db,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.321
+      value: 1.771
       objectReference: {fileID: 0}
     - target: {fileID: 4207998563082702715, guid: 05b4dc09cb1c65345b92d8bdcfa596db,
         type: 3}
@@ -20784,6 +20767,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 696638114}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2000672634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000672636}
+  - component: {fileID: 2000672635}
+  m_Layer: 0
+  m_Name: TempoTracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2000672635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000672634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc10d757c5556d54d9acbd6cdfeb131a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bpm: 120
+  currentBeat: 0
+--- !u!4 &2000672636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000672634}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.3999996, y: 0.55999994, z: 5.3450003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2021644562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22054,6 +22083,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drum
       objectReference: {fileID: 0}
+    - target: {fileID: 7270644434649742357, guid: ca2d301ee09e730478ea1e7fb49609be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22091,6 +22125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 1375224365}
   mInstrumentIndices: 05000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 0}
 --- !u!114 &3723630205971450742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22299,3 +22335,4 @@ SceneRoots:
   - {fileID: 752841081}
   - {fileID: 648240959}
   - {fileID: 381454027}
+  - {fileID: 2000672636}

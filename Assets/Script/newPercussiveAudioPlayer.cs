@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 namespace ProcGenMusic
 {
-    public class NewAudioPlayer : MonoBehaviour
+    public class NewPercussiveAudioPlayer : MonoBehaviour
     {
         [SerializeField]
         private MusicGenerator mMusicGenerator;
@@ -94,15 +94,6 @@ namespace ProcGenMusic
 
             // Determine which instrument handler to play based on the y-position
             int instrumentIndex = 0;
-
-            if (yPosition >= 1f && yPosition <= 2f)
-            {
-                instrumentIndex = 1;  // Select the second instrument handler if the y-value is between 1 and 2
-            }
-            else if (yPosition > 2f)
-            {
-                instrumentIndex = 2;  // Select the third instrument handler if the y-value is above 2
-            }
 
             // Play the note for the selected instrument handler
             newInstrumentHandlers[instrumentIndex].PlayNote();
