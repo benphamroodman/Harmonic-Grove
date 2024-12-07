@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PassthroughScene.unity
     guid: 66c05c526a30c3e45851e187570afa06
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Music Generator Scenes/MusicGeneratorUIEditorScene.unity
     guid: 876852d0d22ba4543a4438d2522adfd2
+  - enabled: 1
+    path: Assets/Scenes/passthrough02.unity
+    guid: 424e2f66fc3328a46886a0b599457c8e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: be210d97ef0b347799bd5557048205a1,
       type: 2}
