@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Github\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|c:\\github\\assets\\exitonesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|solutionrelative:assets\\exitonesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|c:\\github\\assets\\script\\movedrumoncollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movedrumoncollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Github\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Interaction\\XRInteractionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Interaction\\XRInteractionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExitOnEsc.cs",
+              "DocumentMoniker": "C:\\Github\\Assets\\ExitOnEsc.cs",
+              "RelativeDocumentMoniker": "Assets\\ExitOnEsc.cs",
+              "ToolTip": "C:\\Github\\Assets\\ExitOnEsc.cs",
+              "RelativeToolTip": "Assets\\ExitOnEsc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:55:48.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "moveDrumOnCollision.cs",
+              "DocumentMoniker": "C:\\Github\\Assets\\Script\\moveDrumOnCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\moveDrumOnCollision.cs",
+              "ToolTip": "C:\\Github\\Assets\\Script\\moveDrumOnCollision.cs",
+              "RelativeToolTip": "Assets\\Script\\moveDrumOnCollision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:14:17.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "XRInteractionManager.cs",
               "DocumentMoniker": "C:\\Github\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Interaction\\XRInteractionManager.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Interaction\\XRInteractionManager.cs",
