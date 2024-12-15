@@ -12,7 +12,31 @@ public class PlantSpawner : MonoBehaviour
     public GameObject guitarArea;
     public GameObject triangleArea;
     public GameObject stringArea;
-    public float heightOffset = 1f;
+    public GameObject drumHitter;
+    public GameObject guitarHitter;
+    public GameObject triangleHitter;
+    public GameObject stringHitter;
+    public float heightOffset = 0f;
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject == drumHitter)
+        {
+            spawnDrumPlant();
+        }
+        else if (collision.gameObject == guitarHitter)
+        {
+            spawnGuitarPlant();
+        }
+        else if (collision.gameObject == triangleHitter)
+        {
+            spawnTrianglePlant();
+        }
+        else if (collision.gameObject == stringHitter)
+        {
+            spawnStringPlant();
+        }
+    }
 
     public void spawnDrumPlant()
     {
