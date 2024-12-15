@@ -5319,6 +5319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2b83a299c4fb542a64a33769718eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particleSystem: {fileID: 0}
 --- !u!1001 &534872645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7732,6 +7733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2b83a299c4fb542a64a33769718eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particleSystem: {fileID: 0}
 --- !u!1001 &732552305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10429,6 +10431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2b83a299c4fb542a64a33769718eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particleSystem: {fileID: 0}
 --- !u!1 &1108721042
 GameObject:
   m_ObjectHideFlags: 0
@@ -12926,7 +12929,7 @@ PrefabInstance:
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
       propertyPath: mDefaultConfig
-      value: Scene01.5
+      value: Scene01.7
       objectReference: {fileID: 0}
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
@@ -13925,6 +13928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2b83a299c4fb542a64a33769718eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particleSystem: {fileID: 0}
 --- !u!1001 &1520058151
 PrefabInstance:
   m_ObjectHideFlags: 0
