@@ -35,6 +35,7 @@ namespace ProcGenMusic
         {
             // Select a random instrument index between 0 and 3 (inclusive)
             randomInstrumentIndex = Random.Range(0, 4);  // Random int between 0 and 3
+            Debug.Log("Random Instrument Index selected: " + randomInstrumentIndex);
 
             // Initialize the instrument handler with the randomly selected instrument index
             newInstrumentHandler = new NewInstrumentHandler();
@@ -56,6 +57,7 @@ namespace ProcGenMusic
 
             // Select a random index from the list of sets
             randomBeatIndex = Random.Range(0, beatSets.Count);
+            Debug.Log("Random Beat Set Index selected: " + randomBeatIndex);
 
             // Assign the randomly selected set to beatsToPlayOn
             beatsToPlayOn = beatSets[randomBeatIndex];
@@ -77,11 +79,14 @@ namespace ProcGenMusic
                 {
                     hasPlayedNote = false;  // Reset for the new beat
                     lastCheckedBeat = currentBeat;  // Update the last checked beat
+                    Debug.Log("Beat changed: " + currentBeat);
                 }
 
                 // Check if the current beat is in the list of beats to play on and if the note hasn't been played yet
                 if (beatsToPlayOn.Contains(currentBeat) && !hasPlayedNote)
                 {
+                    Debug.Log("Playing note on beat: " + currentBeat);
+                    
                     PlayNoteOnCurrentBeat(currentBeat);
                     hasPlayedNote = true;  // Mark that the note has been played for this beat
                 }
@@ -92,7 +97,7 @@ namespace ProcGenMusic
         {
             if (other.CompareTag("wand") && !isColliding)
             {
-                Debug.Log("Audio player is toggled!");
+                Debug.Log("Wand collided, toggling audio player state.");
                 // Toggle the audio player on/off on collision
                 isAudioPlayerActive = !isAudioPlayerActive;
                 Debug.Log(isAudioPlayerActive ? "Audio player ON." : "Audio player OFF.");
@@ -108,6 +113,7 @@ namespace ProcGenMusic
             {
                 // Reset the collision flag when the wand exits the instrument collider
                 isColliding = false;
+                Debug.Log("Wand exited the collider.");
             }
         }
 
