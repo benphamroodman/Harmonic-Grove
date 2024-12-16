@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PlantSpawner : MonoBehaviour
 {
@@ -12,27 +13,23 @@ public class PlantSpawner : MonoBehaviour
     public GameObject guitarArea;
     public GameObject triangleArea;
     public GameObject stringArea;
-    public GameObject drumHitter;
-    public GameObject guitarHitter;
-    public GameObject triangleHitter;
-    public GameObject stringHitter;
     public float heightOffset = 0f;
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject == drumHitter)
+        if (collision.gameObject.CompareTag("Drum"))
         {
             spawnDrumPlant();
         }
-        else if (collision.gameObject == guitarHitter)
+        else if (collision.gameObject.CompareTag("Guitar"))
         {
             spawnGuitarPlant();
         }
-        else if (collision.gameObject == triangleHitter)
+        else if (collision.gameObject.CompareTag("Triangle"))
         {
             spawnTrianglePlant();
         }
-        else if (collision.gameObject == stringHitter)
+        else if (collision.gameObject.CompareTag("String"))
         {
             spawnStringPlant();
         }
