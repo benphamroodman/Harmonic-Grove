@@ -44561,6 +44561,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7114259817118806073, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7114259817118806073, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8,
+        type: 3}
       propertyPath: tempoTracker
       value: 
       objectReference: {fileID: 1803131466}
@@ -44622,8 +44627,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 23501237997169261, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 267998211992673831}
+    - targetCorrespondingSourceObject: {fileID: 23501237997169261, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 267998211992673830}
   m_SourcePrefab: {fileID: 100100000, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8, type: 3}
+--- !u!1 &267998211992673829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 23501237997169261, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 267998211992673828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &267998211992673830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267998211992673829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
+--- !u!114 &267998211992673831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267998211992673829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 08000000090000000a0000000b000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &323700560293541963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44632,6 +44680,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1486118381940237927, guid: e3bfdb74f13d95540a363cc87c81cb52,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1486118381940237927, guid: e3bfdb74f13d95540a363cc87c81cb52,
         type: 3}
       propertyPath: tempoTracker
@@ -44700,8 +44753,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 467001071217075429, guid: e3bfdb74f13d95540a363cc87c81cb52,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 323700560293541965}
+    - targetCorrespondingSourceObject: {fileID: 467001071217075429, guid: e3bfdb74f13d95540a363cc87c81cb52,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 323700560293541966}
   m_SourcePrefab: {fileID: 100100000, guid: e3bfdb74f13d95540a363cc87c81cb52, type: 3}
+--- !u!1 &323700560293541964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 467001071217075429, guid: e3bfdb74f13d95540a363cc87c81cb52,
+    type: 3}
+  m_PrefabInstance: {fileID: 323700560293541963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &323700560293541965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323700560293541964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  beatsToPlayOn: 00000000
+  tempoTracker: {fileID: 1803131466}
+--- !u!114 &323700560293541966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323700560293541964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
 --- !u!1001 &1730960882836322063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44762,6 +44858,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4053804431257140444, guid: 63a7cd9d2d867d04e8ffce45d201faa7,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4053804431257140444, guid: 63a7cd9d2d867d04e8ffce45d201faa7,
+        type: 3}
       propertyPath: tempoTracker
       value: 
       objectReference: {fileID: 1803131466}
@@ -44778,8 +44879,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9002054638003317353, guid: 63a7cd9d2d867d04e8ffce45d201faa7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1730960882836322065}
   m_SourcePrefab: {fileID: 100100000, guid: 63a7cd9d2d867d04e8ffce45d201faa7, type: 3}
+--- !u!1 &1730960882836322064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9002054638003317353, guid: 63a7cd9d2d867d04e8ffce45d201faa7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1730960882836322063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1730960882836322065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730960882836322064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 04000000050000000600000007000000
+  beatsToPlayOn: 0000000000000000000000000000000000000000
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &2136706614839753241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44788,6 +44915,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2155245512126298737, guid: 7cc3e7495367919438c257258812c83e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2155245512126298737, guid: 7cc3e7495367919438c257258812c83e,
         type: 3}
       propertyPath: tempoTracker
@@ -44856,8 +44988,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4493692878402669060, guid: 7cc3e7495367919438c257258812c83e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2136706614839753244}
+    - targetCorrespondingSourceObject: {fileID: 4493692878402669060, guid: 7cc3e7495367919438c257258812c83e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2136706614839753243}
   m_SourcePrefab: {fileID: 100100000, guid: 7cc3e7495367919438c257258812c83e, type: 3}
+--- !u!1 &2136706614839753242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4493692878402669060, guid: 7cc3e7495367919438c257258812c83e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2136706614839753241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2136706614839753243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136706614839753242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
+--- !u!114 &2136706614839753244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136706614839753242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 00000000010000000200000003000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &3675497792445811733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44923,6 +45098,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6881346571767641827, guid: 4b8f47970cce6bf45aed181c2ef2fcec,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881346571767641827, guid: 4b8f47970cce6bf45aed181c2ef2fcec,
+        type: 3}
       propertyPath: tempoTracker
       value: 
       objectReference: {fileID: 1803131466}
@@ -44934,8 +45114,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7178140579474712941, guid: 4b8f47970cce6bf45aed181c2ef2fcec,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3675497792445811736}
+    - targetCorrespondingSourceObject: {fileID: 7178140579474712941, guid: 4b8f47970cce6bf45aed181c2ef2fcec,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3675497792445811735}
   m_SourcePrefab: {fileID: 100100000, guid: 4b8f47970cce6bf45aed181c2ef2fcec, type: 3}
+--- !u!1 &3675497792445811734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7178140579474712941, guid: 4b8f47970cce6bf45aed181c2ef2fcec,
+    type: 3}
+  m_PrefabInstance: {fileID: 3675497792445811733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3675497792445811735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675497792445811734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
+--- !u!114 &3675497792445811736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3675497792445811734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 00000000010000000200000003000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &4031413527929745258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44948,6 +45171,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Guitar_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050537416701496644, guid: 3e08c1fb21d940245830dd54ddeb8938,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8050537416701496644, guid: 3e08c1fb21d940245830dd54ddeb8938,
         type: 3}
@@ -45012,8 +45240,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4175828871519927107, guid: 3e08c1fb21d940245830dd54ddeb8938,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4031413527929745260}
   m_SourcePrefab: {fileID: 100100000, guid: 3e08c1fb21d940245830dd54ddeb8938, type: 3}
+--- !u!1 &4031413527929745259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4175828871519927107, guid: 3e08c1fb21d940245830dd54ddeb8938,
+    type: 3}
+  m_PrefabInstance: {fileID: 4031413527929745258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4031413527929745260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031413527929745259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 04000000050000000600000007000000
+  beatsToPlayOn: 0000000000000000000000000000000000000000
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &4676411246999105806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45022,6 +45276,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1533958249609354430, guid: b911a5b3b0c939249b03e031ecbe2b56,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1533958249609354430, guid: b911a5b3b0c939249b03e031ecbe2b56,
         type: 3}
       propertyPath: tempoTracker
@@ -45090,8 +45349,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4129846856641919273, guid: b911a5b3b0c939249b03e031ecbe2b56,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4676411246999105809}
+    - targetCorrespondingSourceObject: {fileID: 4129846856641919273, guid: b911a5b3b0c939249b03e031ecbe2b56,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4676411246999105808}
   m_SourcePrefab: {fileID: 100100000, guid: b911a5b3b0c939249b03e031ecbe2b56, type: 3}
+--- !u!1 &4676411246999105807 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4129846856641919273, guid: b911a5b3b0c939249b03e031ecbe2b56,
+    type: 3}
+  m_PrefabInstance: {fileID: 4676411246999105806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4676411246999105808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4676411246999105807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
+--- !u!114 &4676411246999105809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4676411246999105807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 04000000050000000600000007000000
+  beatsToPlayOn: 0000000000000000000000000000000000000000
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &4979946530259814535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45157,6 +45459,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9037623421326280306, guid: dc24f2676fc61814caf07aee74869e84,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9037623421326280306, guid: dc24f2676fc61814caf07aee74869e84,
+        type: 3}
       propertyPath: tempoTracker
       value: 
       objectReference: {fileID: 1803131466}
@@ -45168,8 +45475,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5655021142689219305, guid: dc24f2676fc61814caf07aee74869e84,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4979946530259814538}
+    - targetCorrespondingSourceObject: {fileID: 5655021142689219305, guid: dc24f2676fc61814caf07aee74869e84,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4979946530259814537}
   m_SourcePrefab: {fileID: 100100000, guid: dc24f2676fc61814caf07aee74869e84, type: 3}
+--- !u!1 &4979946530259814536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5655021142689219305, guid: dc24f2676fc61814caf07aee74869e84,
+    type: 3}
+  m_PrefabInstance: {fileID: 4979946530259814535}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4979946530259814537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4979946530259814536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
+--- !u!114 &4979946530259814538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4979946530259814536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 08000000090000000a0000000b000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &5547244547239446223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45182,6 +45532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Drum_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2624289663292965606, guid: 8efcd8d11a4f93f4294f908b073fd95a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2624289663292965606, guid: 8efcd8d11a4f93f4294f908b073fd95a,
         type: 3}
@@ -45246,8 +45601,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3929003386469161282, guid: 8efcd8d11a4f93f4294f908b073fd95a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5547244547239446225}
+    - targetCorrespondingSourceObject: {fileID: 3929003386469161282, guid: 8efcd8d11a4f93f4294f908b073fd95a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5547244547239446226}
   m_SourcePrefab: {fileID: 100100000, guid: 8efcd8d11a4f93f4294f908b073fd95a, type: 3}
+--- !u!1 &5547244547239446224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3929003386469161282, guid: 8efcd8d11a4f93f4294f908b073fd95a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5547244547239446223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5547244547239446225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5547244547239446224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  beatsToPlayOn: 00000000
+  tempoTracker: {fileID: 1803131466}
+--- !u!114 &5547244547239446226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5547244547239446224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
 --- !u!1001 &5932917403889863431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45308,6 +45706,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6777796857916830273, guid: adebd5a290959f34eb41c9636ef0d013,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777796857916830273, guid: adebd5a290959f34eb41c9636ef0d013,
+        type: 3}
       propertyPath: tempoTracker
       value: 
       objectReference: {fileID: 1803131466}
@@ -45324,8 +45727,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8931841165372406738, guid: adebd5a290959f34eb41c9636ef0d013,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5932917403889863434}
+    - targetCorrespondingSourceObject: {fileID: 8931841165372406738, guid: adebd5a290959f34eb41c9636ef0d013,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5932917403889863433}
   m_SourcePrefab: {fileID: 100100000, guid: adebd5a290959f34eb41c9636ef0d013, type: 3}
+--- !u!1 &5932917403889863432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8931841165372406738, guid: adebd5a290959f34eb41c9636ef0d013,
+    type: 3}
+  m_PrefabInstance: {fileID: 5932917403889863431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5932917403889863433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5932917403889863432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
+--- !u!114 &5932917403889863434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5932917403889863432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 08000000090000000a0000000b000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &8724333373181469815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45386,6 +45832,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5471008108306258238, guid: 50bf8c2e1dcfe154aa67a1de417a1a17,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471008108306258238, guid: 50bf8c2e1dcfe154aa67a1de417a1a17,
+        type: 3}
       propertyPath: tempoTracker
       value: 
       objectReference: {fileID: 1803131466}
@@ -45402,8 +45853,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3695884413613235482, guid: 50bf8c2e1dcfe154aa67a1de417a1a17,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8724333373181469817}
+    - targetCorrespondingSourceObject: {fileID: 3695884413613235482, guid: 50bf8c2e1dcfe154aa67a1de417a1a17,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8724333373181469818}
   m_SourcePrefab: {fileID: 100100000, guid: 50bf8c2e1dcfe154aa67a1de417a1a17, type: 3}
+--- !u!1 &8724333373181469816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3695884413613235482, guid: 50bf8c2e1dcfe154aa67a1de417a1a17,
+    type: 3}
+  m_PrefabInstance: {fileID: 8724333373181469815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8724333373181469817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8724333373181469816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  beatsToPlayOn: 00000000
+  tempoTracker: {fileID: 1803131466}
+--- !u!114 &8724333373181469818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8724333373181469816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
 --- !u!1001 &9153274835453050291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45412,6 +45906,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4647063676613152182, guid: f5ca03a8f99460f4987c524b5c1cf819,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4647063676613152182, guid: f5ca03a8f99460f4987c524b5c1cf819,
         type: 3}
       propertyPath: tempoTracker
@@ -45480,8 +45979,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8189072084092159346, guid: f5ca03a8f99460f4987c524b5c1cf819,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9153274835453050294}
+    - targetCorrespondingSourceObject: {fileID: 8189072084092159346, guid: f5ca03a8f99460f4987c524b5c1cf819,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9153274835453050293}
   m_SourcePrefab: {fileID: 100100000, guid: f5ca03a8f99460f4987c524b5c1cf819, type: 3}
+--- !u!1 &9153274835453050292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8189072084092159346, guid: f5ca03a8f99460f4987c524b5c1cf819,
+    type: 3}
+  m_PrefabInstance: {fileID: 9153274835453050291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9153274835453050293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153274835453050292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userCamera: {fileID: 564163553}
+--- !u!114 &9153274835453050294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153274835453050292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 00000000010000000200000003000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 1803131466}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
