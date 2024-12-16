@@ -10,7 +10,7 @@ public class FacesUser : MonoBehaviour
         // If targetObject is not assigned in the Inspector, find it by name
         if (targetObject == null)
         {
-            GameObject foundTarget = GameObject.Find("CenterEyeAnchor");
+            GameObject foundTarget = GameObject.Find("[BuildingBlock] Camera Rig");
             if (foundTarget != null)
             {
                 targetObject = foundTarget.transform;
@@ -39,6 +39,15 @@ public class FacesUser : MonoBehaviour
             {
                 // Rotate the object to face the target's position
                 transform.rotation = Quaternion.LookRotation(direction);
+                
+                // Rotate an additional 90 degrees clockwise (on the y-axis)
+                transform.Rotate(0, 90, 0, Space.World);
+
+                // If the object's name contains "triangle", rotate it 90 degrees on the x-axis as well (so it looks sideways)
+                if (transform.name.ToLower().Contains("triangle"))
+                {
+                    transform.Rotate(90, 0, 0);  // Rotate 90 degrees on the x-axis
+                }
             }
         }
         else

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18120216, g: 0.22266108, b: 0.28337732, a: 1}
+  m_IndirectSpecularColor: {r: 0.18120164, g: 0.2226604, b: 0.2833763, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17327,7 +17327,7 @@ PrefabInstance:
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
       propertyPath: mDefaultConfig
-      value: Scene01.5
+      value: Scene01.7
       objectReference: {fileID: 0}
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
@@ -44655,7 +44655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &267998211992673831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44781,7 +44781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &323700560293541967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44907,7 +44907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &1730960882836322066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45033,7 +45033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &2136706614839753244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45159,7 +45159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &3675497792445811736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45285,7 +45285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &4031413527929745261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45411,7 +45411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &4676411246999105809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45537,7 +45537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &4979946530259814538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45663,7 +45663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &5547244547239446227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45789,7 +45789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &5932917403889863434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45915,7 +45915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &8724333373181469819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46041,7 +46041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRig: {fileID: 564163553}
+  targetObject: {fileID: 0}
 --- !u!114 &9153274835453050294
 MonoBehaviour:
   m_ObjectHideFlags: 0
