@@ -10,12 +10,11 @@ public class FacesUser : MonoBehaviour
         // Optionally, automatically assign the camera if not set in the Inspector
         if (userCamera == null)
         {
-            // Manually assign the AR Camera or use the AR system camera
-            userCamera = Camera.main?.transform ?? ARCamera.transform;  // Use the AR camera if no main camera
+            userCamera = Camera.main.transform;  // Use the main camera if no reference is set
         }
     }
 
-    void LateUpdate()
+    void Update()
     {
         // Make the object face the camera (user) while maintaining its current y-axis orientation (if desired)
         Vector3 targetPosition = new Vector3(userCamera.position.x, transform.position.y, userCamera.position.z);
