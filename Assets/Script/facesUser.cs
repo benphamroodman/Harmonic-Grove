@@ -3,7 +3,8 @@ using UnityEngine;
 public class FacesUser : MonoBehaviour
 {
     // Reference to the camera (user's viewpoint)
-    // [SerializeField] private Transform userCamera;
+    // [SerializeField] 
+    private Transform userCamera;
 
     void Start()
     {
