@@ -1,29 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\",
+  "WorkspaceRootPath": "C:\\git\\alien-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\assets\\script\\newinstrumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\FindSpawnPositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\FindSpawnPositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\MRUK.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\MRUK.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|c:\\git\\alien-game\\assets\\script\\newinstrumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\newinstrumenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|c:\\users\\user\\onedrive\\\u6587\u4EF6\\github\\alien-game\\assets\\script\\newpercussiveaudioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\git\\alien-game\\assets\\script\\newpercussiveaudioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\newpercussiveaudioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|c:\\users\\user\\onedrive\\\u6587\u4EF6\\github\\alien-game\\assets\\script\\newaudioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\git\\alien-game\\assets\\script\\newaudioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\newaudioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\assets\\script\\plantanimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\git\\alien-game\\assets\\script\\plantanimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\plantanimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\assets\\script\\elevationbasedinstrumentadder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|C:\\git\\alien-game\\assets\\script\\elevationbasedinstrumentadder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BE41A4-38AD-2341-1395-15C28B9766EB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\elevationbasedinstrumentadder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Library\\PackageCache\\com.unity.addressables@1.21.21\\Editor\\Build\\AddressablesBuildScriptHooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\git\\alien-game\\Library\\PackageCache\\com.unity.addressables@1.21.21\\Editor\\Build\\AddressablesBuildScriptHooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.addressables@1.21.21\\Editor\\Build\\AddressablesBuildScriptHooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,28 +42,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "newPercussiveAudioPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\newPercussiveAudioPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\newPercussiveAudioPlayer.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\newPercussiveAudioPlayer.cs",
-              "RelativeToolTip": "Assets\\Script\\newPercussiveAudioPlayer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA4wBYAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FindSpawnPositions.cs",
+              "DocumentMoniker": "C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\FindSpawnPositions.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\FindSpawnPositions.cs",
+              "ToolTip": "C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\FindSpawnPositions.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\FindSpawnPositions.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAHgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T08:16:16.223Z",
+              "WhenOpened": "2024-12-15T06:26:33.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "MRUK.cs",
+              "DocumentMoniker": "C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\MRUK.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\MRUK.cs",
+              "ToolTip": "C:\\git\\alien-game\\Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\MRUK.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.mrutilitykit@69.0.1\\Core\\Scripts\\MRUK.cs",
+              "ViewState": "AgIAAHYEAAAAAAAAAAAAAMMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T06:25:04.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "newPercussiveAudioPlayer.cs",
+              "DocumentMoniker": "C:\\git\\alien-game\\Assets\\Script\\newPercussiveAudioPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\newPercussiveAudioPlayer.cs",
+              "ToolTip": "C:\\git\\alien-game\\Assets\\Script\\newPercussiveAudioPlayer.cs",
+              "RelativeToolTip": "Assets\\Script\\newPercussiveAudioPlayer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T08:16:16.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "newInstrumentHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\newInstrumentHandler.cs",
+              "DocumentMoniker": "C:\\git\\alien-game\\Assets\\Script\\newInstrumentHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\newInstrumentHandler.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\newInstrumentHandler.cs",
+              "ToolTip": "C:\\git\\alien-game\\Assets\\Script\\newInstrumentHandler.cs",
               "RelativeToolTip": "Assets\\Script\\newInstrumentHandler.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAgwFUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,11 +97,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlantAnimationTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\PlantAnimationTrigger.cs",
+              "DocumentMoniker": "C:\\git\\alien-game\\Assets\\Script\\PlantAnimationTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlantAnimationTrigger.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\PlantAnimationTrigger.cs",
+              "ToolTip": "C:\\git\\alien-game\\Assets\\Script\\PlantAnimationTrigger.cs",
               "RelativeToolTip": "Assets\\Script\\PlantAnimationTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,24 +109,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "newAudioPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\newAudioPlayer.cs",
+              "DocumentMoniker": "C:\\git\\alien-game\\Assets\\Script\\newAudioPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\newAudioPlayer.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\newAudioPlayer.cs",
+              "ToolTip": "C:\\git\\alien-game\\Assets\\Script\\newAudioPlayer.cs",
               "RelativeToolTip": "Assets\\Script\\newAudioPlayer.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAYwGQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T13:56:16.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T13:56:16.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "elevationBasedInstrumentAdder.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\elevationBasedInstrumentAdder.cs",
+              "DocumentMoniker": "C:\\git\\alien-game\\Assets\\Script\\elevationBasedInstrumentAdder.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\elevationBasedInstrumentAdder.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Assets\\Script\\elevationBasedInstrumentAdder.cs",
+              "ToolTip": "C:\\git\\alien-game\\Assets\\Script\\elevationBasedInstrumentAdder.cs",
               "RelativeToolTip": "Assets\\Script\\elevationBasedInstrumentAdder.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwC0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -101,11 +133,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AddressablesBuildScriptHooks.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Library\\PackageCache\\com.unity.addressables@1.21.21\\Editor\\Build\\AddressablesBuildScriptHooks.cs",
+              "DocumentMoniker": "C:\\git\\alien-game\\Library\\PackageCache\\com.unity.addressables@1.21.21\\Editor\\Build\\AddressablesBuildScriptHooks.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.addressables@1.21.21\\Editor\\Build\\AddressablesBuildScriptHooks.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\\u6587\u4EF6\\GitHub\\alien-game\\Library\\PackageCache\\com.unity.addressables@1.21.21\\Editor\\Build\\AddressablesBuildScriptHooks.cs",
+              "ToolTip": "C:\\git\\alien-game\\Library\\PackageCache\\com.unity.addressables@1.21.21\\Editor\\Build\\AddressablesBuildScriptHooks.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.unity.addressables@1.21.21\\Editor\\Build\\AddressablesBuildScriptHooks.cs",
               "ViewState": "AgIAACoAAAAAAAAAAADwvz0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
