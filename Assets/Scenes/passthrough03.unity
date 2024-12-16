@@ -16405,12 +16405,12 @@ Transform:
   m_GameObject: {fileID: 327695237}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.439, y: -0.3690362, z: 0.36635554}
+  m_LocalPosition: {x: -6.123749, y: 0.75680006, z: 0.9096005}
   m_LocalScale: {x: 0.6, y: 0.01, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 994103748}
-  m_Father: {fileID: 1634483557}
+  m_Father: {fileID: 1803980143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &327695239
 Rigidbody:
@@ -16966,12 +16966,12 @@ Transform:
   m_GameObject: {fileID: 353030606}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1672516, y: -0.3690362, z: 1.088}
+  m_LocalPosition: {x: -6.852001, y: 0.75680006, z: 1.631245}
   m_LocalScale: {x: 0.6, y: 0.01, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1880070768}
-  m_Father: {fileID: 1634483557}
+  m_Father: {fileID: 1803980143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &353030608
 Rigidbody:
@@ -31428,12 +31428,12 @@ Transform:
   m_GameObject: {fileID: 1545548269}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.465, y: -0.3690362, z: 1.075}
+  m_LocalPosition: {x: -6.1497498, y: 0.75680006, z: 1.618245}
   m_LocalScale: {x: 0.6, y: 0.01, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 534255482}
-  m_Father: {fileID: 1634483557}
+  m_Father: {fileID: 1803980143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1545548271
 Rigidbody:
@@ -32955,11 +32955,7 @@ Transform:
   m_LocalPosition: {x: -5.6847496, y: 1.1258363, z: 0.54324496}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1878962851}
-  - {fileID: 1545548270}
-  - {fileID: 327695238}
-  - {fileID: 353030607}
+  m_Children: []
   m_Father: {fileID: 1803980143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1635230508
@@ -35429,6 +35425,10 @@ Transform:
   - {fileID: 1803131467}
   - {fileID: 1433971846}
   - {fileID: 301825983}
+  - {fileID: 1878962851}
+  - {fileID: 1545548270}
+  - {fileID: 327695238}
+  - {fileID: 353030607}
   - {fileID: 1634483557}
   - {fileID: 373127958}
   - {fileID: 564163553}
@@ -35922,12 +35922,12 @@ Transform:
   m_GameObject: {fileID: 1878962850}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1672516, y: -0.3690362, z: 0.36635554}
+  m_LocalPosition: {x: -6.852001, y: 0.75680006, z: 0.9096005}
   m_LocalScale: {x: 0.6, y: 0.01, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1701270945}
-  m_Father: {fileID: 1634483557}
+  m_Father: {fileID: 1803980143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1878962852
 Rigidbody:
@@ -44631,11 +44631,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 23501237997169261, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 267998211992673831}
+      addedObject: {fileID: 267998211992673830}
     - targetCorrespondingSourceObject: {fileID: 23501237997169261, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 267998211992673830}
+      addedObject: {fileID: 267998211992673831}
   m_SourcePrefab: {fileID: 100100000, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8, type: 3}
 --- !u!1 &267998211992673829 stripped
 GameObject:
@@ -44655,7 +44655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
 --- !u!114 &267998211992673831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44665,12 +44665,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 267998211992673829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 08000000090000000a0000000b000000
-  beatsToPlayOn: 
+  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &323700560293541963
 PrefabInstance:
@@ -44757,11 +44757,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 467001071217075429, guid: e3bfdb74f13d95540a363cc87c81cb52,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 323700560293541965}
+      addedObject: {fileID: 323700560293541966}
     - targetCorrespondingSourceObject: {fileID: 467001071217075429, guid: e3bfdb74f13d95540a363cc87c81cb52,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 323700560293541966}
+      addedObject: {fileID: 323700560293541967}
   m_SourcePrefab: {fileID: 100100000, guid: e3bfdb74f13d95540a363cc87c81cb52, type: 3}
 --- !u!1 &323700560293541964 stripped
 GameObject:
@@ -44769,22 +44769,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 323700560293541963}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &323700560293541965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323700560293541964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 0c0000000d0000000e0000000f000000
-  beatsToPlayOn: 00000000
-  tempoTracker: {fileID: 1803131466}
 --- !u!114 &323700560293541966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44797,7 +44781,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
+--- !u!114 &323700560293541967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323700560293541964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  beatsToPlayOn: 01000000
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &1730960882836322063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44883,6 +44883,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9002054638003317353, guid: 63a7cd9d2d867d04e8ffce45d201faa7,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1730960882836322066}
+    - targetCorrespondingSourceObject: {fileID: 9002054638003317353, guid: 63a7cd9d2d867d04e8ffce45d201faa7,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1730960882836322065}
   m_SourcePrefab: {fileID: 100100000, guid: 63a7cd9d2d867d04e8ffce45d201faa7, type: 3}
 --- !u!1 &1730960882836322064 stripped
@@ -44900,12 +44904,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1730960882836322064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraRig: {fileID: 564163553}
+--- !u!114 &1730960882836322066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730960882836322064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
   mInstrumentIndices: 04000000050000000600000007000000
-  beatsToPlayOn: 0000000000000000000000000000000000000000
+  beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &2136706614839753241
 PrefabInstance:
@@ -44992,11 +45009,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4493692878402669060, guid: 7cc3e7495367919438c257258812c83e,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2136706614839753244}
+      addedObject: {fileID: 2136706614839753243}
     - targetCorrespondingSourceObject: {fileID: 4493692878402669060, guid: 7cc3e7495367919438c257258812c83e,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2136706614839753243}
+      addedObject: {fileID: 2136706614839753244}
   m_SourcePrefab: {fileID: 100100000, guid: 7cc3e7495367919438c257258812c83e, type: 3}
 --- !u!1 &2136706614839753242 stripped
 GameObject:
@@ -45016,7 +45033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
 --- !u!114 &2136706614839753244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45026,12 +45043,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2136706614839753242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
   mInstrumentIndices: 00000000010000000200000003000000
-  beatsToPlayOn: 
+  beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &3675497792445811733
 PrefabInstance:
@@ -45118,11 +45135,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7178140579474712941, guid: 4b8f47970cce6bf45aed181c2ef2fcec,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3675497792445811736}
+      addedObject: {fileID: 3675497792445811735}
     - targetCorrespondingSourceObject: {fileID: 7178140579474712941, guid: 4b8f47970cce6bf45aed181c2ef2fcec,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3675497792445811735}
+      addedObject: {fileID: 3675497792445811736}
   m_SourcePrefab: {fileID: 100100000, guid: 4b8f47970cce6bf45aed181c2ef2fcec, type: 3}
 --- !u!1 &3675497792445811734 stripped
 GameObject:
@@ -45142,7 +45159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
 --- !u!114 &3675497792445811736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45152,12 +45169,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3675497792445811734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
   mInstrumentIndices: 00000000010000000200000003000000
-  beatsToPlayOn: 
+  beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &4031413527929745258
 PrefabInstance:
@@ -45244,6 +45261,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4175828871519927107, guid: 3e08c1fb21d940245830dd54ddeb8938,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 4031413527929745261}
+    - targetCorrespondingSourceObject: {fileID: 4175828871519927107, guid: 3e08c1fb21d940245830dd54ddeb8938,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 4031413527929745260}
   m_SourcePrefab: {fileID: 100100000, guid: 3e08c1fb21d940245830dd54ddeb8938, type: 3}
 --- !u!1 &4031413527929745259 stripped
@@ -45261,12 +45282,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 4031413527929745259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraRig: {fileID: 564163553}
+--- !u!114 &4031413527929745261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031413527929745259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
   mInstrumentIndices: 04000000050000000600000007000000
-  beatsToPlayOn: 0000000000000000000000000000000000000000
+  beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &4676411246999105806
 PrefabInstance:
@@ -45353,11 +45387,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4129846856641919273, guid: b911a5b3b0c939249b03e031ecbe2b56,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4676411246999105809}
+      addedObject: {fileID: 4676411246999105808}
     - targetCorrespondingSourceObject: {fileID: 4129846856641919273, guid: b911a5b3b0c939249b03e031ecbe2b56,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4676411246999105808}
+      addedObject: {fileID: 4676411246999105809}
   m_SourcePrefab: {fileID: 100100000, guid: b911a5b3b0c939249b03e031ecbe2b56, type: 3}
 --- !u!1 &4676411246999105807 stripped
 GameObject:
@@ -45377,7 +45411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
 --- !u!114 &4676411246999105809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45387,12 +45421,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4676411246999105807}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
   mInstrumentIndices: 04000000050000000600000007000000
-  beatsToPlayOn: 0000000000000000000000000000000000000000
+  beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &4979946530259814535
 PrefabInstance:
@@ -45479,11 +45513,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5655021142689219305, guid: dc24f2676fc61814caf07aee74869e84,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4979946530259814538}
+      addedObject: {fileID: 4979946530259814537}
     - targetCorrespondingSourceObject: {fileID: 5655021142689219305, guid: dc24f2676fc61814caf07aee74869e84,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4979946530259814537}
+      addedObject: {fileID: 4979946530259814538}
   m_SourcePrefab: {fileID: 100100000, guid: dc24f2676fc61814caf07aee74869e84, type: 3}
 --- !u!1 &4979946530259814536 stripped
 GameObject:
@@ -45503,7 +45537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
 --- !u!114 &4979946530259814538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45513,12 +45547,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4979946530259814536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 08000000090000000a0000000b000000
-  beatsToPlayOn: 
+  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &5547244547239446223
 PrefabInstance:
@@ -45605,11 +45639,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3929003386469161282, guid: 8efcd8d11a4f93f4294f908b073fd95a,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5547244547239446225}
+      addedObject: {fileID: 5547244547239446226}
     - targetCorrespondingSourceObject: {fileID: 3929003386469161282, guid: 8efcd8d11a4f93f4294f908b073fd95a,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5547244547239446226}
+      addedObject: {fileID: 5547244547239446227}
   m_SourcePrefab: {fileID: 100100000, guid: 8efcd8d11a4f93f4294f908b073fd95a, type: 3}
 --- !u!1 &5547244547239446224 stripped
 GameObject:
@@ -45617,22 +45651,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5547244547239446223}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5547244547239446225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5547244547239446224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 0c0000000d0000000e0000000f000000
-  beatsToPlayOn: 00000000
-  tempoTracker: {fileID: 1803131466}
 --- !u!114 &5547244547239446226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45645,7 +45663,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
+--- !u!114 &5547244547239446227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5547244547239446224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  beatsToPlayOn: 01000000
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &5932917403889863431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45731,11 +45765,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8931841165372406738, guid: adebd5a290959f34eb41c9636ef0d013,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5932917403889863434}
+      addedObject: {fileID: 5932917403889863433}
     - targetCorrespondingSourceObject: {fileID: 8931841165372406738, guid: adebd5a290959f34eb41c9636ef0d013,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5932917403889863433}
+      addedObject: {fileID: 5932917403889863434}
   m_SourcePrefab: {fileID: 100100000, guid: adebd5a290959f34eb41c9636ef0d013, type: 3}
 --- !u!1 &5932917403889863432 stripped
 GameObject:
@@ -45755,7 +45789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
 --- !u!114 &5932917403889863434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45765,12 +45799,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5932917403889863432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 08000000090000000a0000000b000000
-  beatsToPlayOn: 
+  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &8724333373181469815
 PrefabInstance:
@@ -45857,11 +45891,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3695884413613235482, guid: 50bf8c2e1dcfe154aa67a1de417a1a17,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8724333373181469817}
+      addedObject: {fileID: 8724333373181469818}
     - targetCorrespondingSourceObject: {fileID: 3695884413613235482, guid: 50bf8c2e1dcfe154aa67a1de417a1a17,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8724333373181469818}
+      addedObject: {fileID: 8724333373181469819}
   m_SourcePrefab: {fileID: 100100000, guid: 50bf8c2e1dcfe154aa67a1de417a1a17, type: 3}
 --- !u!1 &8724333373181469816 stripped
 GameObject:
@@ -45869,22 +45903,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8724333373181469815}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8724333373181469817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8724333373181469816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 0c0000000d0000000e0000000f000000
-  beatsToPlayOn: 00000000
-  tempoTracker: {fileID: 1803131466}
 --- !u!114 &8724333373181469818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45897,7 +45915,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
+--- !u!114 &8724333373181469819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8724333373181469816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 373127957}
+  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  beatsToPlayOn: 01000000
+  tempoTracker: {fileID: 1803131466}
 --- !u!1001 &9153274835453050291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45983,11 +46017,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8189072084092159346, guid: f5ca03a8f99460f4987c524b5c1cf819,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9153274835453050294}
+      addedObject: {fileID: 9153274835453050293}
     - targetCorrespondingSourceObject: {fileID: 8189072084092159346, guid: f5ca03a8f99460f4987c524b5c1cf819,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9153274835453050293}
+      addedObject: {fileID: 9153274835453050294}
   m_SourcePrefab: {fileID: 100100000, guid: f5ca03a8f99460f4987c524b5c1cf819, type: 3}
 --- !u!1 &9153274835453050292 stripped
 GameObject:
@@ -46007,7 +46041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba9080555d390145aca18d82096bda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userCamera: {fileID: 564163553}
+  cameraRig: {fileID: 564163553}
 --- !u!114 &9153274835453050294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46017,12 +46051,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 9153274835453050292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
   mInstrumentIndices: 00000000010000000200000003000000
-  beatsToPlayOn: 
+  beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
