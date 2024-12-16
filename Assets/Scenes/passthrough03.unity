@@ -43802,6 +43802,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle_3
       objectReference: {fileID: 0}
+    - target: {fileID: 2023644227261391419, guid: 4b8f47970cce6bf45aed181c2ef2fcec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5295193675315340297, guid: 4b8f47970cce6bf45aed181c2ef2fcec,
         type: 3}
       propertyPath: m_LocalPosition.x
