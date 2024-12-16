@@ -44,7 +44,7 @@ public class FacesUser : MonoBehaviour
                 transform.Rotate(0, 90, 0, Space.World);
 
                 // If the object is named "triangle", rotate it 90 degrees on the x-axis as well (so it looks sideways)
-                if (transform.name == "triangle")
+                if (transform.name.ToLower().Contains("triangle") || transform.name.ToLower().Contains("Triangle"))
                 {
                     transform.Rotate(-90, 0, 0, Space.World);  // Rotate 90 degrees on the x-axis
                 }
