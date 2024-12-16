@@ -2,23 +2,40 @@ using UnityEngine;
 
 public class FacesUser : MonoBehaviour
 {
-    // Reference to the camera (user's viewpoint)
-    // [SerializeField] 
-    private Transform userCamera;
+    // Declare a public Transform variable to reference the camera's parent object (Camera Rig)
+    public Transform cameraRig;
 
     void Start()
     {
-        // Optionally, if the userCamera isn't set in the Inspector, you can find the camera by name
-        if (userCamera == null)
+        // Optionally, automatically assign the Camera Rig if not set in the Inspector
+        if (cameraRig == null)
         {
-            userCamera = GameObject.Find("[BuildingBlock] Camera Rig");  // Replace "ARCamera" with your camera's name
+            // Find the Camera Rig GameObject by its name and access its Transform
+            cameraRig = GameObject.Find("[BuildingBlock] Camera Rig").transform;  // Use your exact object name here
         }
     }
 
     void Update()
     {
-        // Make the object face the camera (user) while maintaining its current y-axis orientation (if desired)
-        Vector3 targetPosition = new Vector3(userCamera.position.x, transform.position.y, userCamera.position.z);
-        transform.LookAt(targetPosition);
+        // Ensure the object faces the camera rig
+        if (cameraRig != null)
+        {
+            // Get the position of the camera in the camera rig
+            Transform cameraTransform = cameraRig.Find("Camera");  // Assuming the camera is a child of Camera Rig
+            if (cameraTransform != null)
+            {
+                // Make the object face the camera (while maintaining its current y-axis orientation)
+                Vector3 targetPosition = new Vector3(cameraTransform.position.x, transform.position.y, cameraTransform.position.z);
+                transform.LookAt(targetPosition);
+            }
+            else
+            {
+                Debug.LogError("Camera not found under Camera Rig.");
+            }
+        }
+        else
+        {
+            Debug.LogError("Camera Rig not found.");
+        }
     }
 }
