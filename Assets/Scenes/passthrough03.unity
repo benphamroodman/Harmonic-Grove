@@ -17327,7 +17327,7 @@ PrefabInstance:
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
       propertyPath: mDefaultConfig
-      value: Scene01.5
+      value: Scene01.7
       objectReference: {fileID: 0}
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
@@ -44791,7 +44791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  mInstrumentIndices: 00000000010000000200000003000000
   beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &1730960882836322063
@@ -44917,7 +44917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 04000000050000000600000007000000
+  mInstrumentIndices: 08000000090000000a0000000b000000
   beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &2136706614839753241
@@ -45043,7 +45043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 00000000010000000200000003000000
+  mInstrumentIndices: 04000000050000000600000007000000
   beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &3675497792445811733
@@ -45169,7 +45169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 00000000010000000200000003000000
+  mInstrumentIndices: 04000000050000000600000007000000
   beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &4031413527929745258
@@ -45200,6 +45200,31 @@ PrefabInstance:
       propertyPath: mMusicGenerator
       value: 
       objectReference: {fileID: 373127957}
+    - target: {fileID: 8050537416701496644, guid: 3e08c1fb21d940245830dd54ddeb8938,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050537416701496644, guid: 3e08c1fb21d940245830dd54ddeb8938,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.data[0]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050537416701496644, guid: 3e08c1fb21d940245830dd54ddeb8938,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.data[1]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050537416701496644, guid: 3e08c1fb21d940245830dd54ddeb8938,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8050537416701496644, guid: 3e08c1fb21d940245830dd54ddeb8938,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.data[3]
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 8326681284058054182, guid: 3e08c1fb21d940245830dd54ddeb8938,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45295,7 +45320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 04000000050000000600000007000000
+  mInstrumentIndices: 08000000090000000a0000000b000000
   beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &4676411246999105806
@@ -45321,6 +45346,31 @@ PrefabInstance:
       propertyPath: mMusicGenerator
       value: 
       objectReference: {fileID: 373127957}
+    - target: {fileID: 1533958249609354430, guid: b911a5b3b0c939249b03e031ecbe2b56,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1533958249609354430, guid: b911a5b3b0c939249b03e031ecbe2b56,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.data[0]
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1533958249609354430, guid: b911a5b3b0c939249b03e031ecbe2b56,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.data[1]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1533958249609354430, guid: b911a5b3b0c939249b03e031ecbe2b56,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.data[2]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1533958249609354430, guid: b911a5b3b0c939249b03e031ecbe2b56,
+        type: 3}
+      propertyPath: mInstrumentIndices.Array.data[3]
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2663725635088759915, guid: b911a5b3b0c939249b03e031ecbe2b56,
         type: 3}
       propertyPath: m_Name
@@ -45421,7 +45471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 04000000050000000600000007000000
+  mInstrumentIndices: 08000000090000000a0000000b000000
   beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &4979946530259814535
@@ -45673,7 +45723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  mInstrumentIndices: 00000000010000000200000003000000
   beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &5932917403889863431
@@ -45925,7 +45975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 0c0000000d0000000e0000000f000000
+  mInstrumentIndices: 00000000010000000200000003000000
   beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1001 &9153274835453050291
@@ -46051,7 +46101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMusicGenerator: {fileID: 373127957}
-  mInstrumentIndices: 00000000010000000200000003000000
+  mInstrumentIndices: 04000000050000000600000007000000
   beatsToPlayOn: 01000000
   tempoTracker: {fileID: 1803131466}
 --- !u!1660057539 &9223372036854775807

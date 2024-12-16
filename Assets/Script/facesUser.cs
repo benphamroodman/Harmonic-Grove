@@ -33,12 +33,22 @@ public class FacesUser : MonoBehaviour
 
             // Set the y-axis of the direction to 0 to keep the rotation only on the y-axis
             direction.y = 0;
+            direction.y = direction.y + 90;
 
             // If direction is not zero (to avoid errors when the target is directly at the same position)
             if (direction.magnitude > 0)
             {
                 // Rotate the object to face the target's position
                 transform.rotation = Quaternion.LookRotation(direction);
+                
+                // Rotate an additional 90 degrees clockwise (on the y-axis)
+                // transform.Rotate(0, 90, 0, Space.World);
+
+                // If the object's name contains "triangle", rotate it 90 degrees on the x-axis as well (so it looks sideways)
+                if (transform.name.ToLower().Contains("triangle"))
+                {
+                    transform.Rotate(-90, 0, 0);  // Rotate 90 degrees on the x-axis
+                }
             }
         }
         else
