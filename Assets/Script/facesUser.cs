@@ -10,7 +10,7 @@ public class FacesUser : MonoBehaviour
         // If targetObject is not assigned in the Inspector, find it by name
         if (targetObject == null)
         {
-            GameObject foundTarget = GameObject.Find("[BuildingBlock] Camera Rig");
+            GameObject foundTarget = GameObject.Find("CenterEyeAnchor");
             if (foundTarget != null)
             {
                 targetObject = foundTarget.transform;
