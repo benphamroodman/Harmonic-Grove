@@ -33,7 +33,7 @@ public class FacesUser : MonoBehaviour
 
             // Set the y-axis of the direction to 0 to keep the rotation only on the y-axis
             direction.y = 0;
-            direction.y = direction.y + 90;
+            direction.x = direction.x + 90;
 
             // If direction is not zero (to avoid errors when the target is directly at the same position)
             if (direction.magnitude > 0)
