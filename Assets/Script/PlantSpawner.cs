@@ -15,8 +15,12 @@ public class PlantSpawner : MonoBehaviour
     public GameObject triangleArea;
     public GameObject stringArea;
     public float heightOffset = 0f;
-
-    private void OnTriggerEnter(Collider other)
+    void Start()
+    {
+        // 每10秒自動調用一次 spawnStringPlant 方法
+        spawnTrianglePlant();
+    }
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Drum"))
         {
@@ -44,7 +48,7 @@ public class PlantSpawner : MonoBehaviour
         }
     }
 
-    public void spawnDrumPlant()
+    void spawnDrumPlant()
     {
         int randomIndex = Random.Range(0, drumPrefabs.Length);
         GameObject selectedPlantPrefab = drumPrefabs[randomIndex];
@@ -61,7 +65,7 @@ public class PlantSpawner : MonoBehaviour
         Instantiate(selectedPlantPrefab, spawnPosition, Quaternion.identity);
     }
 
-    public void spawnGuitarPlant()
+    void spawnGuitarPlant()
     {
         int randomIndex = Random.Range(0, guitarPrefabs.Length);
         GameObject selectedPlantPrefab = guitarPrefabs[randomIndex];
@@ -78,23 +82,30 @@ public class PlantSpawner : MonoBehaviour
         Instantiate(selectedPlantPrefab, spawnPosition, Quaternion.identity);
     }
 
-    public void spawnTrianglePlant()
+    void spawnTrianglePlant()
     {
         int randomIndex = Random.Range(0, trianglePrefabs.Length);
         GameObject selectedPlantPrefab = trianglePrefabs[randomIndex];
-        Renderer areaRenderer = triangleArea.GetComponent<Renderer>();
+        Vector3 areaCenter = triangleArea.transform.position;
 
-        Vector3 areaCenter = areaRenderer.bounds.center;
-        Vector3 areaSize = areaRenderer.bounds.size;
+        Debug.Log("X: " + areaCenter.x);
+        Debug.Log("X: " + areaCenter.y);
+        Debug.Log("X: " + areaCenter.z);
 
-        float randomX = Random.Range(areaCenter.x - areaSize.x / 2, areaCenter.x + areaSize.x / 2);
-        float randomZ = Random.Range(areaCenter.z - areaSize.z / 2, areaCenter.z + areaSize.z / 2);
+        float randomX = Random.Range(areaCenter.x - 0.3f, areaCenter.x + 0.3f);
+        float randomZ = Random.Range(areaCenter.z - 0.3f, areaCenter.z + 0.3f);
         float randomY = areaCenter.y + heightOffset;
 
+        Debug.Log("Random X: " + randomX);
+        Debug.Log("Random Z: " + randomZ);
+        Debug.Log("Random Y: " + randomY);
+
         Vector3 spawnPosition = new Vector3(randomX, randomY, randomZ);
+        Debug.Log("Spawn Position: " + spawnPosition);
+
         Instantiate(selectedPlantPrefab, spawnPosition, Quaternion.identity);
     }
-    public void spawnStringPlant()
+    void spawnStringPlant()
     {
         int randomIndex = Random.Range(0, stringPrefabs.Length);
         GameObject selectedPlantPrefab = stringPrefabs[randomIndex];
