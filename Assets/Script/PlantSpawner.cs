@@ -1,3 +1,4 @@
+using Oculus.Interaction;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,22 +16,30 @@ public class PlantSpawner : MonoBehaviour
     public GameObject stringArea;
     public float heightOffset = 0f;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Drum"))
+        if (other.CompareTag("Drum"))
         {
+            Renderer drumRenderer = other.gameObject.GetComponent<Renderer>();
+            drumRenderer.material.color = Color.black;
             spawnDrumPlant();
         }
-        else if (collision.gameObject.CompareTag("Guitar"))
+        else if (other.CompareTag("Guitar"))
         {
+            Renderer drumRenderer = other.gameObject.GetComponent<Renderer>();
+            drumRenderer.material.color = Color.black;
             spawnGuitarPlant();
         }
-        else if (collision.gameObject.CompareTag("Triangle"))
+        else if (other.CompareTag("Triangle"))
         {
+            Renderer drumRenderer = other.gameObject.GetComponent<Renderer>();
+            drumRenderer.material.color = Color.black;
             spawnTrianglePlant();
         }
-        else if (collision.gameObject.CompareTag("String"))
+        else if (other.CompareTag("String"))
         {
+            Renderer drumRenderer = other.gameObject.GetComponent<Renderer>();
+            drumRenderer.material.color = Color.black;
             spawnStringPlant();
         }
     }
