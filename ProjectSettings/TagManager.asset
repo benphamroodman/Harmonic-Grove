@@ -6,6 +6,11 @@ TagManager:
   tags:
   - PathSegment
   - Alien
+  - wand
+  - Drum
+  - Guitar
+  - Triangle
+  - String
   layers:
   - Default
   - TransparentFX

@@ -17432,7 +17432,7 @@ GameObject:
   - component: {fileID: 384063149}
   m_Layer: 0
   m_Name: wood
-  m_TagString: Untagged
+  m_TagString: Guitar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23122,7 +23122,7 @@ GameObject:
   - component: {fileID: 805639209}
   m_Layer: 0
   m_Name: glass
-  m_TagString: Untagged
+  m_TagString: String
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31578,6 +31578,7 @@ GameObject:
   - component: {fileID: 1555461604}
   - component: {fileID: 1555461603}
   - component: {fileID: 1555461602}
+  - component: {fileID: 1555461608}
   m_Layer: 0
   m_Name: '[BuildingBlock]Wand'
   m_TagString: wand
@@ -31717,6 +31718,39 @@ Transform:
   - {fileID: 1564244296}
   m_Father: {fileID: 1803980143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1555461608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555461601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dee3d1cebd332b459d7016b4a164972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drumPrefabs:
+  - {fileID: 6583121071395796417, guid: e3bfdb74f13d95540a363cc87c81cb52, type: 3}
+  - {fileID: 7154872961555504296, guid: 50bf8c2e1dcfe154aa67a1de417a1a17, type: 3}
+  - {fileID: 1699631138444650882, guid: 8efcd8d11a4f93f4294f908b073fd95a, type: 3}
+  guitarPrefabs:
+  - {fileID: 2663725635088759915, guid: b911a5b3b0c939249b03e031ecbe2b56, type: 3}
+  - {fileID: 3844402071808873671, guid: 3e08c1fb21d940245830dd54ddeb8938, type: 3}
+  - {fileID: 6909026415043963219, guid: 63a7cd9d2d867d04e8ffce45d201faa7, type: 3}
+  trianglePrefabs:
+  - {fileID: 7782350356699185221, guid: f5ca03a8f99460f4987c524b5c1cf819, type: 3}
+  - {fileID: 3700441913232623544, guid: 7cc3e7495367919438c257258812c83e, type: 3}
+  - {fileID: 2023644227261391419, guid: 4b8f47970cce6bf45aed181c2ef2fcec, type: 3}
+  stringPrefabs:
+  - {fileID: 4169442612653060612, guid: ce32fdd9b6444aa49b5ebe11c8f5e5a8, type: 3}
+  - {fileID: 8657086832888688660, guid: adebd5a290959f34eb41c9636ef0d013, type: 3}
+  - {fileID: 6811445313301744289, guid: dc24f2676fc61814caf07aee74869e84, type: 3}
+  drumArea: {fileID: 353030606}
+  guitarArea: {fileID: 1878962850}
+  triangleArea: {fileID: 327695237}
+  stringArea: {fileID: 1545548269}
+  heightOffset: 0
 --- !u!1 &1564244295
 GameObject:
   m_ObjectHideFlags: 0
@@ -41987,7 +42021,7 @@ GameObject:
   - component: {fileID: 1975844322}
   m_Layer: 0
   m_Name: cushion
-  m_TagString: Untagged
+  m_TagString: Drum
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44196,7 +44230,7 @@ GameObject:
   - component: {fileID: 2136440409}
   m_Layer: 0
   m_Name: steel
-  m_TagString: Untagged
+  m_TagString: Triangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
