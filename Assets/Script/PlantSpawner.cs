@@ -15,35 +15,22 @@ public class PlantSpawner : MonoBehaviour
     public GameObject triangleArea;
     public GameObject stringArea;
     public float heightOffset = 0f;
-    void Start()
-    {
-        // 每10秒自動調用一次 spawnStringPlant 方法
-        spawnTrianglePlant();
-    }
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Drum"))
         {
-            Renderer drumRenderer = other.gameObject.GetComponent<Renderer>();
-            drumRenderer.material.color = Color.black;
             spawnDrumPlant();
         }
         else if (other.CompareTag("Guitar"))
         {
-            Renderer drumRenderer = other.gameObject.GetComponent<Renderer>();
-            drumRenderer.material.color = Color.black;
             spawnGuitarPlant();
         }
         else if (other.CompareTag("Triangle"))
         {
-            Renderer drumRenderer = other.gameObject.GetComponent<Renderer>();
-            drumRenderer.material.color = Color.black;
             spawnTrianglePlant();
         }
         else if (other.CompareTag("String"))
         {
-            Renderer drumRenderer = other.gameObject.GetComponent<Renderer>();
-            drumRenderer.material.color = Color.black;
             spawnStringPlant();
         }
     }
