@@ -31,7 +31,7 @@ namespace ProcGenMusic
         private int randomInstrumentIndex;
         private int randomBeatIndex;
 
-        void Start()
+        void Awake()
         {
             // If mMusicGenerator is not assigned, find the GameObject with "ProceduralMusicGenerator" in its name
             if (mMusicGenerator == null)
