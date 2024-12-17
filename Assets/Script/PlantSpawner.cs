@@ -73,12 +73,13 @@ public class PlantSpawner : MonoBehaviour
     {
         int randomIndex = Random.Range(0, trianglePrefabs.Length);
         GameObject selectedPlantPrefab = trianglePrefabs[randomIndex];
-        Vector3 areaCenter = triangleArea.transform.position;
-        float randomX = Random.Range(areaCenter.x - 0.3f, areaCenter.x + 0.3f);
-        float randomZ = Random.Range(areaCenter.z - 0.3f, areaCenter.z + 0.3f);
+        Renderer areaRenderer = triangleArea.GetComponent<Renderer>();
+        Vector3 areaCenter = areaRenderer.bounds.center;
+        Vector3 areaSize = areaRenderer.bounds.size;
+        float randomX = Random.Range(areaCenter.x - areaSize.x / 2, areaCenter.x + areaSize.x / 2);
+        float randomZ = Random.Range(areaCenter.z - areaSize.z / 2, areaCenter.z + areaSize.z / 2);
         float randomY = areaCenter.y + heightOffset;
-        Vector3 spawnPosition = new Vector3(areaCenter.x, areaCenter.y, areaCenter.z);
-        Debug.Log("Spawn Position: " + spawnPosition);
+        Vector3 spawnPosition = new Vector3(randomX, randomY, randomZ);
         GameObject spawnedPlant = Instantiate(selectedPlantPrefab, spawnPosition, Quaternion.identity);
     }
     void spawnStringPlant()
