@@ -28862,7 +28862,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handGrabObjects:
-  - {fileID: 0}
+  - {fileID: 1878962850}
+  - {fileID: 1545548269}
+  - {fileID: 327695237}
+  - {fileID: 353030606}
 --- !u!224 &1015386973
 RectTransform:
   m_ObjectHideFlags: 0
