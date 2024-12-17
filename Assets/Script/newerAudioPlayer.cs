@@ -31,12 +31,12 @@ namespace ProcGenMusic
         private int randomInstrumentIndex;
         private int randomBeatIndex;
 
-        void Awake()
+        /*void Awake()
         {
             Debug.Log("newerAudioPlayer is starting!");
         }
-        
-        void Awake()
+        */
+        void Start()
         {
             Debug.Log("newerAudioPlayer is awake!");
 

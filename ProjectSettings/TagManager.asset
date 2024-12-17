@@ -11,6 +11,7 @@ TagManager:
   - Guitar
   - Triangle
   - String
+  - ProceduralMusicGenerator
   layers:
   - Default
   - TransparentFX
