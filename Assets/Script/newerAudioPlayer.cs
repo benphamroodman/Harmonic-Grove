@@ -33,6 +33,12 @@ namespace ProcGenMusic
 
         void Start()
         {
+            Debug.Log("newerAudioPlayer is starting!");
+        }
+        
+        void Awake()
+        {
+            Debug.Log("newerAudioPlayer is awake!");
             // If mMusicGenerator is not assigned, find the GameObject with "ProceduralMusicGenerator" in its name
             if (mMusicGenerator == null)
             {
