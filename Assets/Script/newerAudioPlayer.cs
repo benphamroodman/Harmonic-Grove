@@ -31,14 +31,11 @@ namespace ProcGenMusic
         private int randomInstrumentIndex;
         private int randomBeatIndex;
 
-        /*void Awake()
-        {
-            Debug.Log("newerAudioPlayer is starting!");
-        }
-        */
+        private bool hasStarted = false;
+        
         void Start()
         {
-            Debug.Log("newerAudioPlayer is awake!");
+            Debug.Log("newerAudioPlayer is starting!");
 
             // Select a random instrument index between 0 and 3 (inclusive)
             randomInstrumentIndex = Random.Range(0, 4);  // Random int between 0 and 3
@@ -48,7 +45,89 @@ namespace ProcGenMusic
             newInstrumentHandler = new NewInstrumentHandler();
             newInstrumentHandler.Initialize(mMusicGenerator, mInstrumentIndices[randomInstrumentIndex]);
 
+
+            // If mMusicGenerator is not assigned, find the GameObject with "ProceduralMusicGenerator" in its name
+            if (mMusicGenerator == null)
+            {
+                GameObject musicGenObject = GameObject.FindGameObjectWithTag("ProceduralMusicGenerator");
+                if (musicGenObject != null)
+                {
+                    mMusicGenerator = musicGenObject.GetComponent<MusicGenerator>();
+                    Debug.Log("Assigned mMusicGenerator from object containing 'ProceduralMusicGenerator'.");
+                }
+                else
+                {
+                    Debug.LogWarning("mMusicGenerator not assigned and no object with 'ProceduralMusicGenerator' found.");
+                }
+            }
+
+            // If tempoTracker is not assigned, find the object with TempoTracker script
+            if (tempoTracker == null)
+            {
+                tempoTracker = FindObjectOfType<TempoTracker>();
+                if (tempoTracker != null)
+                {
+                    Debug.Log("Assigned tempoTracker from object with TempoTracker script.");
+                }
+                else
+                {
+                    Debug.LogWarning("tempoTracker not assigned and no TempoTracker script found in the scene.");
+                }
+            }
+
+            hasStarted = true;
+
             determineBeatsToPlayOn();
+        }
+
+        void Awake()
+        {
+            if (hasStarted == false)
+            {
+                Debug.Log("newerAudioPlayer is awakening!");
+
+                // Select a random instrument index between 0 and 3 (inclusive)
+                randomInstrumentIndex = Random.Range(0, 4);  // Random int between 0 and 3
+                Debug.Log("Random Instrument Index selected: " + randomInstrumentIndex);
+
+                // Initialize the instrument handler with the randomly selected instrument index
+                newInstrumentHandler = new NewInstrumentHandler();
+                newInstrumentHandler.Initialize(mMusicGenerator, mInstrumentIndices[randomInstrumentIndex]);
+
+
+                // If mMusicGenerator is not assigned, find the GameObject with "ProceduralMusicGenerator" in its name
+                if (mMusicGenerator == null)
+                {
+                    GameObject musicGenObject = GameObject.FindGameObjectWithTag("ProceduralMusicGenerator");
+                    if (musicGenObject != null)
+                    {
+                        mMusicGenerator = musicGenObject.GetComponent<MusicGenerator>();
+                        Debug.Log("Assigned mMusicGenerator from object containing 'ProceduralMusicGenerator'.");
+                    }
+                    else
+                    {
+                        Debug.LogWarning("mMusicGenerator not assigned and no object with 'ProceduralMusicGenerator' found.");
+                    }
+                }
+
+                // If tempoTracker is not assigned, find the object with TempoTracker script
+                if (tempoTracker == null)
+                {
+                    tempoTracker = FindObjectOfType<TempoTracker>();
+                    if (tempoTracker != null)
+                    {
+                        Debug.Log("Assigned tempoTracker from object with TempoTracker script.");
+                    }
+                    else
+                    {
+                        Debug.LogWarning("tempoTracker not assigned and no TempoTracker script found in the scene.");
+                    }
+                }
+
+                hasStarted = true;
+
+                determineBeatsToPlayOn();
+            }
         }
 
         void determineBeatsToPlayOn()
@@ -75,6 +154,53 @@ namespace ProcGenMusic
 
         void Update()
         {
+            if (hasStarted == false)
+            {
+                Debug.Log("newerAudioPlayer is updating for the first time!");
+
+                // Select a random instrument index between 0 and 3 (inclusive)
+                randomInstrumentIndex = Random.Range(0, 4);  // Random int between 0 and 3
+                Debug.Log("Random Instrument Index selected: " + randomInstrumentIndex);
+
+                // Initialize the instrument handler with the randomly selected instrument index
+                newInstrumentHandler = new NewInstrumentHandler();
+                newInstrumentHandler.Initialize(mMusicGenerator, mInstrumentIndices[randomInstrumentIndex]);
+
+
+                // If mMusicGenerator is not assigned, find the GameObject with "ProceduralMusicGenerator" in its name
+                if (mMusicGenerator == null)
+                {
+                    GameObject musicGenObject = GameObject.FindGameObjectWithTag("ProceduralMusicGenerator");
+                    if (musicGenObject != null)
+                    {
+                        mMusicGenerator = musicGenObject.GetComponent<MusicGenerator>();
+                        Debug.Log("Assigned mMusicGenerator from object containing 'ProceduralMusicGenerator'.");
+                    }
+                    else
+                    {
+                        Debug.LogWarning("mMusicGenerator not assigned and no object with 'ProceduralMusicGenerator' found.");
+                    }
+                }
+
+                // If tempoTracker is not assigned, find the object with TempoTracker script
+                if (tempoTracker == null)
+                {
+                    tempoTracker = FindObjectOfType<TempoTracker>();
+                    if (tempoTracker != null)
+                    {
+                        Debug.Log("Assigned tempoTracker from object with TempoTracker script.");
+                    }
+                    else
+                    {
+                        Debug.LogWarning("tempoTracker not assigned and no TempoTracker script found in the scene.");
+                    }
+                }
+
+                hasStarted = true;
+
+                determineBeatsToPlayOn();
+            }
+            
             // If mMusicGenerator is not assigned, find the GameObject with "ProceduralMusicGenerator" in its name
             if (mMusicGenerator == null)
             {
@@ -88,6 +214,10 @@ namespace ProcGenMusic
                 {
                     Debug.LogWarning("mMusicGenerator not assigned and no object with 'ProceduralMusicGenerator' found.");
                 }
+            }
+
+            else {
+                Debug.Log("On this update, mMusicGenerator is assigned!");
             }
 
             // If tempoTracker is not assigned, find the object with TempoTracker script
