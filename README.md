@@ -1,15 +1,4 @@
 # Harmonic Grove (formerly 'Alien Game')
----
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [How to Play](#how-to-play)
-- [Editing in Unity](#editing-in-unity)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Credits](#credits)
 
 ---
 
@@ -36,15 +25,9 @@ Music generation is dependent on Stick and Bindle Games' free [Procedural Music 
 - Plane detection
 - Hand tracking
 
-### Folder Structure
-- `Assets/`: Core game assets.
-- `Scripts/`: Contains all the game logic and custom scripts.
-- `Scenes/`: Unity scenes for different game levels.
-- `Prefabs/`: Prefabricated game objects for quick reuse.
+---
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
 
