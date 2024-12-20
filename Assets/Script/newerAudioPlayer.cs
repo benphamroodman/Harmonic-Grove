@@ -233,6 +233,10 @@ namespace ProcGenMusic
                     Debug.LogWarning("tempoTracker not assigned and no TempoTracker script found in the scene.");
                 }
             }
+
+            else {
+                Debug.Log("On this update, tempoTracker is assigned!");
+            }
             
             // Check if the audio player is active and track beats from the TempoTracker
             if (isAudioPlayerActive)

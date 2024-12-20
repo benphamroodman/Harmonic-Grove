@@ -6900,6 +6900,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1069648675}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c3ba3aa9fa9e29342b87cd8bac0cece3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1069648676}
   m_SourcePrefab: {fileID: 100100000, guid: c3ba3aa9fa9e29342b87cd8bac0cece3, type: 3}
 --- !u!4 &648240960 stripped
 Transform:
@@ -10248,7 +10252,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069648667}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8fcdfdfdbf57ced4b87b517b6b35d7b7, type: 3}
   m_Name: 
@@ -10469,6 +10473,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2b83a299c4fb542a64a33769718eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1069648676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069648667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191203d139909bb4ca09baff28548cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mMusicGenerator: {fileID: 0}
+  mInstrumentIndices: 01000000020000000300000004000000
+  beatsToPlayOn: 
+  tempoTracker: {fileID: 2000672635}
 --- !u!1 &1108721042
 GameObject:
   m_ObjectHideFlags: 0
@@ -12957,6 +12977,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3175222136796074851, guid: 97e3a737fd8e1eb6fad729590a3fe139,
+        type: 3}
+      propertyPath: m_TagString
+      value: ProceduralMusicGenerator
       objectReference: {fileID: 0}
     - target: {fileID: 3175222137313178767, guid: 97e3a737fd8e1eb6fad729590a3fe139,
         type: 3}
