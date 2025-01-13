@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Github\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|c:\\github\\assets\\script\\plantanimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|c:\\github\\assets\\script\\neweraudioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\neweraudioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|c:\\github\\assets\\script\\disablehandgrab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\disablehandgrab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|C:\\Github\\assets\\script\\plantanimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\plantanimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|c:\\github\\assets\\exitonesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|C:\\Github\\assets\\exitonesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{741B2FC3-6AE0-2166-DD46-AC44E716F58E}|Assembly-CSharp.csproj|solutionrelative:assets\\exitonesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "newerAudioPlayer.cs",
+              "DocumentMoniker": "C:\\Github\\Assets\\Script\\newerAudioPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\newerAudioPlayer.cs",
+              "ToolTip": "C:\\Github\\Assets\\Script\\newerAudioPlayer.cs",
+              "RelativeToolTip": "Assets\\Script\\newerAudioPlayer.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAIwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T04:37:36.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DisableHandGrab.cs",
+              "DocumentMoniker": "C:\\Github\\Assets\\Script\\DisableHandGrab.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\DisableHandGrab.cs",
+              "ToolTip": "C:\\Github\\Assets\\Script\\DisableHandGrab.cs",
+              "RelativeToolTip": "Assets\\Script\\DisableHandGrab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:28:23.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlantAnimationTrigger.cs",
               "DocumentMoniker": "C:\\Github\\Assets\\Script\\PlantAnimationTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlantAnimationTrigger.cs",
@@ -38,12 +72,11 @@
               "RelativeToolTip": "Assets\\Script\\PlantAnimationTrigger.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T02:23:53.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T02:23:53.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ExitOnEsc.cs",
               "DocumentMoniker": "C:\\Github\\Assets\\ExitOnEsc.cs",
               "RelativeDocumentMoniker": "Assets\\ExitOnEsc.cs",
@@ -51,12 +84,11 @@
               "RelativeToolTip": "Assets\\ExitOnEsc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:55:48.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T14:55:48.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "moveDrumOnCollision.cs",
               "DocumentMoniker": "C:\\Github\\Assets\\Script\\moveDrumOnCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\moveDrumOnCollision.cs",
@@ -68,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "XRInteractionManager.cs",
               "DocumentMoniker": "C:\\Github\\Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Interaction\\XRInteractionManager.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.interaction.toolkit@2.5.4\\Runtime\\Interaction\\XRInteractionManager.cs",
