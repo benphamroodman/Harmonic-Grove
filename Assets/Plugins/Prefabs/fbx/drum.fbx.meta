@@ -34,10 +34,10 @@ ModelImporter:
     clipAnimations:
     - serializedVersion: 16
       name: drum_top_fast
-      takeName: Armature|Armature|ArmatureAction.001
+      takeName: Armature|Object_6|Object_6|Object_5Action
       internalID: 6468842206477671005
       firstFrame: 0
-      lastFrame: 96
+      lastFrame: 48
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
