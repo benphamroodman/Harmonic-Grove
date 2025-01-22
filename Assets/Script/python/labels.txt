@@ -1,5 +1,5 @@
-0 Background Noise
-1 glass
-2 metal
-3 soft
-4 wood
+0
+1
+2
+3
+4
