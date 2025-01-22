@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "ConfigurationName": "SceneAmusement",
+    "ConfigurationName": "SceneAnnoyance",
     "Mods": [],
     "mMasterVolume": 10.371620178222657,
     "mVolFadeRate": 2.0,
@@ -10,9 +10,9 @@
     "mKeyChangeAscendDescend": 0.0,
     "mSetThemeOdds": 0.0,
     "mPlayThemeOdds": 100.0,
-    "Scale": 0,
+    "Scale": 3,
     "mProgressionChangeOdds": 100.0,
-    "Key": 0,
+    "Key": 2,
     "mKeyChangeOdds": 0.0,
     "OverallGroupChangeOdds": 100.0,
     "mGroupOdds": [
@@ -62,14 +62,14 @@
     "SingleClipIsRepeating": false,
     "IsSingleClip": false,
     "ProgressionRate": 8,
-    "mTempo": 241.0,
+    "mTempo": 456.0,
     "mRepeatMeasuresNum": 1,
     "mLeitmotifProgression": [
+        6,
+        4,
         1,
         5,
-        6,
         2,
-        4,
         5,
         1,
         5
@@ -298,13 +298,13 @@
             "Arpeggio": false,
             "mArpeggioRepeat": 8,
             "IsMuted": false,
-            "TimeStep": 3,
+            "TimeStep": 1,
             "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
             },
-            "mOddsOfUsingChordNotes": 50.0,
+            "mOddsOfUsingChordNotes": 25.0,
             "mStrumVariation": 0.0,
             "mRedundancyAvoidance": 100.0,
             "mStrumLength": 0.0,
@@ -397,7 +397,7 @@
         {
             "mChordSize": 3,
             "StaffPlayerColor": 5,
-            "SuccessionType": 1,
+            "SuccessionType": 0,
             "mLeitmotif": {
                 "IsEnabled": false,
                 "Notes": [],
@@ -1510,7 +1510,7 @@
             "Arpeggio": false,
             "mArpeggioRepeat": 8,
             "IsMuted": false,
-            "TimeStep": 3,
+            "TimeStep": 2,
             "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
@@ -2207,7 +2207,7 @@
             "mRedundancyOdds": 50.0,
             "mLeadMaxSteps": 3,
             "mAscendDescendInfluence": 50.0,
-            "mLeadInfluence": 1,
+            "mLeadInfluence": -1,
             "ClipNotes": [],
             "KeepMelodicRhythm": false,
             "MinMelodicRhythmTimeStep": 2

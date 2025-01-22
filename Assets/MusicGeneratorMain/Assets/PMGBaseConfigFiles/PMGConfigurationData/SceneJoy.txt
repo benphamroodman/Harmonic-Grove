@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "ConfigurationName": "SceneAmusement",
+    "ConfigurationName": "SceneJoy",
     "Mods": [],
     "mMasterVolume": 10.371620178222657,
     "mVolFadeRate": 2.0,
@@ -12,7 +12,7 @@
     "mPlayThemeOdds": 100.0,
     "Scale": 0,
     "mProgressionChangeOdds": 100.0,
-    "Key": 0,
+    "Key": 7,
     "mKeyChangeOdds": 0.0,
     "OverallGroupChangeOdds": 100.0,
     "mGroupOdds": [
@@ -62,17 +62,17 @@
     "SingleClipIsRepeating": false,
     "IsSingleClip": false,
     "ProgressionRate": 8,
-    "mTempo": 241.0,
+    "mTempo": 826.0,
     "mRepeatMeasuresNum": 1,
     "mLeitmotifProgression": [
         1,
-        5,
-        6,
-        2,
         4,
         5,
-        1,
-        5
+        3,
+        4,
+        2,
+        5,
+        1
     ],
     "LeitmotifIgnoresGroups": true,
     "mExcludedProgSteps": [

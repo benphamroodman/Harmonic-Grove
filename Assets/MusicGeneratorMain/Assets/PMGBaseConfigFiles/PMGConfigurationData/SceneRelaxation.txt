@@ -2,15 +2,15 @@
     "version": 3,
     "ConfigurationName": "SceneRelaxation",
     "Mods": [],
-    "mMasterVolume": -5.0,
+    "mMasterVolume": 10.371620178222657,
     "mVolFadeRate": 2.0,
-    "Mode": 3,
+    "Mode": 0,
     "ThemeRepeatOptions": 3,
     "mKeySteps": 0,
     "mKeyChangeAscendDescend": 0.0,
     "mSetThemeOdds": 0.0,
     "mPlayThemeOdds": 100.0,
-    "Scale": 4,
+    "Scale": 0,
     "mProgressionChangeOdds": 100.0,
     "Key": 5,
     "mKeyChangeOdds": 0.0,
@@ -62,14 +62,14 @@
     "SingleClipIsRepeating": false,
     "IsSingleClip": false,
     "ProgressionRate": 8,
-    "mTempo": 241.0,
+    "mTempo": 456.0,
     "mRepeatMeasuresNum": 1,
     "mLeitmotifProgression": [
         1,
         2,
         5,
-        1,
-        1,
+        3,
+        4,
         2,
         5,
         1
@@ -298,13 +298,13 @@
             "Arpeggio": false,
             "mArpeggioRepeat": 8,
             "IsMuted": false,
-            "TimeStep": 3,
-            "ForceBeat": false,
+            "TimeStep": 1,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
             },
-            "mOddsOfUsingChordNotes": 50.0,
+            "mOddsOfUsingChordNotes": 25.0,
             "mStrumVariation": 0.0,
             "mRedundancyAvoidance": 100.0,
             "mStrumLength": 0.0,
@@ -602,7 +602,7 @@
             "mArpeggioRepeat": 8,
             "IsMuted": false,
             "TimeStep": 3,
-            "ForceBeat": false,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
@@ -905,7 +905,7 @@
             "mArpeggioRepeat": 8,
             "IsMuted": false,
             "TimeStep": 3,
-            "ForceBeat": false,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
@@ -1510,8 +1510,8 @@
             "Arpeggio": false,
             "mArpeggioRepeat": 8,
             "IsMuted": false,
-            "TimeStep": 3,
-            "ForceBeat": false,
+            "TimeStep": 2,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
@@ -1912,7 +1912,7 @@
         {
             "mChordSize": 3,
             "StaffPlayerColor": 8,
-            "SuccessionType": 1,
+            "SuccessionType": 2,
             "mLeitmotif": {
                 "IsEnabled": false,
                 "Notes": [],
@@ -2207,7 +2207,7 @@
             "mRedundancyOdds": 50.0,
             "mLeadMaxSteps": 3,
             "mAscendDescendInfluence": 50.0,
-            "mLeadInfluence": 1,
+            "mLeadInfluence": -1,
             "ClipNotes": [],
             "KeepMelodicRhythm": false,
             "MinMelodicRhythmTimeStep": 2
