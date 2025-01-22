@@ -299,7 +299,7 @@
             "mArpeggioRepeat": 8,
             "IsMuted": false,
             "TimeStep": 3,
-            "ForceBeat": false,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
@@ -602,7 +602,7 @@
             "mArpeggioRepeat": 8,
             "IsMuted": false,
             "TimeStep": 3,
-            "ForceBeat": false,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
@@ -905,7 +905,7 @@
             "mArpeggioRepeat": 8,
             "IsMuted": false,
             "TimeStep": 3,
-            "ForceBeat": false,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
@@ -1511,7 +1511,7 @@
             "mArpeggioRepeat": 8,
             "IsMuted": false,
             "TimeStep": 3,
-            "ForceBeat": false,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
@@ -1814,7 +1814,7 @@
             "mArpeggioRepeat": 8,
             "IsMuted": false,
             "TimeStep": 3,
-            "ForceBeat": false,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
@@ -2117,7 +2117,7 @@
             "mArpeggioRepeat": 8,
             "IsMuted": false,
             "TimeStep": 3,
-            "ForceBeat": false,
+            "ForceBeat": true,
             "ForcedBeats": [],
             "manualBeats": {
                 "keys": []
