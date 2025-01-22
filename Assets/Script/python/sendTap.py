@@ -14,7 +14,7 @@ HOP_SIZE = 512  # Number of frames between pitch calculations
 # UDP
 
 UDP_IP = "172.20.10.14"  # 替换为接收端的 IP 地址
-UDP_IP = "172.20.10.3"
+#UDP_IP = "172.20.10.3"
 UDP_PORT = 5005  # 替换为接收端的端口号
 
 # Specify model and labels directly in the code

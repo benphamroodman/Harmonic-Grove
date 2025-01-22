@@ -91,7 +91,7 @@ public class SystemController : MonoBehaviour
 
     public void StartSpawn()
     {
-        Debug.Log("StartSpawn");
+        Debug.LogWarning("StartSpawn");
         BuildDebugText.text = "StartSpawn , count : " + spawnCount;
 		GameObject obj = Instantiate(SpawnerPlanePrefab);
         obj.GetComponent<FloorMapping>().BuildDebugText = FloorMappingBuildDebugTexts;

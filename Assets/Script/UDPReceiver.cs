@@ -30,13 +30,16 @@ public class UDPReceiver : MonoBehaviour
         //systemController = GameObject.Find("System").GetComponent<SystemController>();
         systemController = SystemController.instance;
 
-        UDP_LISTEN_IP = "127.0.0.1"; // local
-        UDP_LISTEN_IP = "192.168.50.248"; // wama wifi
-        UDP_LISTEN_IP = "192.168.50.112"; // 孟 wifi
+        UDP_LISTEN_IP = "172.20.10.3"; // self wifi
+        //UDP_LISTEN_IP = "172.20.10.4"; // wama wifi
+        //UDP_LISTEN_IP = "192.168.50.112"; // 孟 wifi
+        //UDP_LISTEN_IP = "0.0.0.0";
 
-        Debug.Log("Starting to Receive UDP Material on " + UDP_LISTEN_IP + "...");
-        
-        isKnocking = false;
+
+		Debug.Log("Starting to Receive UDP Material on " + UDP_LISTEN_IP + "...");
+        BuildDebugText_isKnocking.text = "Starting to Receive UDP Material on " + UDP_LISTEN_IP + "...";
+
+		isKnocking = false;
         material = 0;
         pitch = 0f;
 		UDP_LISTEN_PORT_IS_KNOCKING = 5005;
@@ -70,11 +73,11 @@ public class UDPReceiver : MonoBehaviour
             IPEndPoint remoteEndPoint = new IPEndPoint(IPAddress.Parse(UDP_LISTEN_IP), UDP_LISTEN_PORT_IS_KNOCKING);
             var receivedResults = isKnockingUdpClient.Receive(ref remoteEndPoint);
             string message = Encoding.UTF8.GetString(receivedResults);
-			Debug.LogWarning("Received isKnocking UDP message: " + message + " , isKnocking" + isKnocking);
 			isKnocking = System.String.Equals(message.Split(",")[0], "Yes");
+			Debug.LogWarning("Received isKnocking UDP message: " + message + " , isKnocking" + isKnocking);
 			material = int.Parse(message.Split(",")[1]);
 			pitch = float.Parse(message.Split(",")[2]);
-			//BuildDebugText_isKnocking.text = "Received isKnocking UDP message: " + isKnocking;
+			BuildDebugText_isKnocking.text = "Received isKnocking UDP message: " + isKnocking;
         }
     }
 }

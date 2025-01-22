@@ -33,7 +33,7 @@ public class FloorMapping : MonoBehaviour
 
 	public void MapToPlane(PlantSpawner.PlantTypes PlantType, GameObject FingerPosObj)
 	{
-		Debug.Log("MapToPlane");
+		Debug.LogWarning("MapToPlane");
 		MapPosObj = FingerPosObj;
 		foreach (var room in MRUK.Instance.Rooms)
 		{
