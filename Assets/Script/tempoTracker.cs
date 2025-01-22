@@ -6,11 +6,12 @@ public class TempoTracker : MonoBehaviour
     private float timeSinceLastBeat;  // Time passed since the last beat
     public int currentBeat = 1;  // Current beat in the sequence (1 to 16)
 
-    private float beatInterval = 0.2f;  // Interval in seconds (1/8th second)
+    private float beatInterval;  // Interval in seconds (1/8th second)
 
     void Start()
     {
         currentBeat = 1;
+        beatInterval = 60 / bpm;
     }
 
     void Update()
@@ -18,7 +19,7 @@ public class TempoTracker : MonoBehaviour
         // Track time passed since the last beat
         timeSinceLastBeat += Time.deltaTime;
 
-        // If 1/8th of a second has passed, print the current beat
+        // If a beat interval has passed, print the current beat
         if (timeSinceLastBeat >= beatInterval)
         {
             // Print the current beat to the console
