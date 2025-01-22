@@ -1,6 +1,7 @@
 using Meta.XR.MRUtilityKit;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -24,81 +25,21 @@ public class FloorMapping : MonoBehaviour
 		HangingDown // Spawn on surfaces facing downwards such as the ceiling
 	}
 	[FormerlySerializedAs("selectedSnapOption")]
-	[SerializeField, Tooltip("Attach content to scene surfaces.")]
-	public SpawnLocation SpawnLocations = SpawnLocation.AnySurface;
-	[SerializeField, Tooltip("Maximum number of times to attempt spawning/moving an object before giving up.")]
-	public int MaxIterations = 1000;
 	[SerializeField, Tooltip("When using surface spawning, use this to filter which anchor labels should be included. Eg, spawn only on TABLE or OTHER.")]
 	public MRUKAnchor.SceneLabels Labels = ~(MRUKAnchor.SceneLabels) 0;
+	public TMP_Text[] BuildDebugText; 
 
 	public GameObject MapPosObj;
-	public bool IsTestBuild = true;
-	float Timer = 5f;
 
-	private void Update()
-	{
-		if (IsTestBuild)
-		{
-			Timer -= Time.deltaTime;
-			if(Timer <= 0f)
-			{
-				MapToPlane();
-				Timer = 5f;
-			}
-		}
-	}
-
-	Vector3 GetNormal(Vector3 CurClosestPosition, MRUKAnchor anchor)
-	{
-		Bounds? bounds = anchor.VolumeBounds;
-		Vector3 diff = CurClosestPosition - anchor.GetAnchorCenter();
-		//Vector3 diff = anchor.transform.InverseTransformPoint(CurClosestPosition) - anchor.transform.position;
-		if (bounds != null)
-		{
-			if(bounds.Value.extents.x == Mathf.Abs(diff.x))
-			{
-				if(diff.x > 0)
-				{
-					return Vector3.right;
-				}
-				else
-				{
-					return Vector3.left;
-				}
-			}
-			if(bounds.Value.extents.y == Mathf.Abs(diff.y))
-			{
-				if(diff.y > 0)
-				{
-					return Vector3.up;
-				}
-				else
-				{
-					return Vector3.down;
-				}
-			}
-			if(bounds.Value.extents.z == Mathf.Abs(diff.z))
-			{
-				if(diff.z > 0)
-				{
-					return Vector3.forward;
-				}
-				else
-				{
-					return Vector3.back;
-				}
-			}
-		}
-		return Vector3.zero;
-	}
-
-	public void MapToPlane()
+	public void MapToPlane(PlantSpawner.PlantTypes PlantType, GameObject FingerPosObj)
 	{
 		Debug.Log("MapToPlane");
+		MapPosObj = FingerPosObj;
 		foreach (var room in MRUK.Instance.Rooms)
 		{
 			MapToPlane(room);
 			//room.AnchorCreatedEvent.AddListener(TryMapToTable);
+			PlantSpawner.instance.spawnPlant(PlantType,gameObject);
 		}
 	}
 
@@ -123,12 +64,12 @@ public class FloorMapping : MonoBehaviour
 					distance = CurDistance;
 					Best = anchor;
 					closestPosition = CurClosestPosition;
-					normal = GetNormal(CurClosestPosition ,anchor);
+					//normal = GetNormal(CurClosestPosition ,anchor);
 				}
 			}
 			float BestDot = Mathf.Infinity;
 			//Debug.Log("Use " + Best.name + " as best, closestPosition : " + closestPosition + " ,diff  : " + (closestPosition - Best.GetAnchorCenter()) + " ,anchor : " + Best.GetAnchorCenter() + " ,half size : "+ Best.VolumeBounds.Value.extents + ", normal : " + normal);
-			foreach(var pos in Best.GetBoundsFaceCenters())
+			foreach(var pos in Best.GetBoundsFaceCenters()) // normal finding
 			{
 				float CurDot = Vector3.Dot(pos - Best.GetAnchorCenter(), pos - closestPosition);
 				Debug.Log("Bounds Face Centers :" + pos + ", plane normal : " + (pos - Best.GetAnchorCenter()) + ", dot test : " + CurDot);
@@ -140,7 +81,8 @@ public class FloorMapping : MonoBehaviour
 			}
 
 			transform.position = closestPosition;
-			transform.rotation *= Quaternion.FromToRotation(transform.up, normal);
+			BuildDebugText[0].text = "Plane Pos : " + closestPosition;
+			//transform.rotation *= Quaternion.FromToRotation(transform.up, normal);
 		}
 	}
 
