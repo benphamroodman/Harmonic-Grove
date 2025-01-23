@@ -12,7 +12,8 @@ public class SystemController : MonoBehaviour
 	public GameObject SpawnerPlanePrefab;
     public GameObject FingerPosObj;
     public TMP_Text BuildDebugText;
-	public TMP_Text[] FloorMappingBuildDebugTexts;
+    public TMP_Text[] FloorMappingBuildDebugTexts;
+    bool startKnocking = false;
 
 	#region Singleton
 	public static SystemController instance;
@@ -43,7 +44,6 @@ public class SystemController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool startKnocking = false;
         if (isKnocking)
         {
             startKnocking = true;
