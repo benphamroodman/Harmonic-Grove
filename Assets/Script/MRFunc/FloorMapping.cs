@@ -27,7 +27,6 @@ public class FloorMapping : MonoBehaviour
 	[FormerlySerializedAs("selectedSnapOption")]
 	[SerializeField, Tooltip("When using surface spawning, use this to filter which anchor labels should be included. Eg, spawn only on TABLE or OTHER.")]
 	public MRUKAnchor.SceneLabels Labels = ~(MRUKAnchor.SceneLabels) 0;
-	public TMP_Text[] BuildDebugText; 
 
 	public GameObject MapPosObj;
 

@@ -166,7 +166,7 @@ public class PlantSpawner : MonoBehaviour
 	/// <param name="count">要生成的次數</param>
 	public void StartSpawning(List<Vector3> positions, int count, GameObject[] PrefabArr, Transform PlaneTransform)
 	{
-        SystemController.instance.FloorMappingBuildDebugTexts[3].text = "StartSpawning with count : " + count;
+        //SystemController.instance.FloorMappingBuildDebugTexts[3].text = "StartSpawning with count : " + count;
 		StartCoroutine(SpawnObjectsCoroutine(positions, count, PrefabArr, PlaneTransform));
 	}
 
@@ -184,6 +184,7 @@ public class PlantSpawner : MonoBehaviour
 				GameObject selectedPlantPrefab = PrefabArr[randomIndex];
 				Vector3 spawnPosition = positions[positionIndex % positions.Count];
 				SpawnObject(spawnPosition, selectedPlantPrefab, PlaneTransform);
+				SystemController.instance.FloorMappingBuildDebugTexts[3].text += "\n SpawnObject count : " + (positionIndex + 1);
 
 				// 遞增索引以循環使用位置
 				positionIndex++;
@@ -197,6 +198,7 @@ public class PlantSpawner : MonoBehaviour
 	// 生成物件的方法
 	private void SpawnObject(Vector3 localPosition, GameObject PlantPrefab, Transform PlaneTransform)
 	{
+
 		if (PlantPrefab == null)
 		{
 			Debug.LogError("Prefab is not assigned!");

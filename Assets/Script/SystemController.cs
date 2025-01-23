@@ -40,12 +40,6 @@ public class SystemController : MonoBehaviour
         
     }
 
-    public void ShowLog(string message)
-    {
-        Debug.Log("SystemController show : " + message);
-        BuildDebugText.text = message;
-	}
-
     // Update is called once per frame
     void Update()
     {
@@ -92,9 +86,8 @@ public class SystemController : MonoBehaviour
     public void StartSpawn()
     {
         Debug.LogWarning("StartSpawn");
-        BuildDebugText.text = "StartSpawn , count : " + spawnCount;
+        BuildDebugText.text += "StartSpawn , count : " + spawnCount  + "\n";
 		GameObject obj = Instantiate(SpawnerPlanePrefab);
-        obj.GetComponent<FloorMapping>().BuildDebugText = FloorMappingBuildDebugTexts;
         obj.GetComponent<FloorMapping>()?.MapToPlane((PlantSpawner.PlantTypes) material, FingerPosObj);
 	}
 }
