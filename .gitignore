@@ -20,3 +20,6 @@ MemoryCaptures/
 *.opendb
 .vscode/
 /Assets/Samples
+
+## MacOS
+*.DS_Store
