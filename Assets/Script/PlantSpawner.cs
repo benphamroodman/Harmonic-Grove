@@ -18,8 +18,11 @@ public class PlantSpawner : MonoBehaviour
 	public float heightOffset = 0f;
     public enum PlantTypes { Background_Noise, glass , metal , soft , wood }
     public int SpawnCount = 5;
-    static int RandomPointsCount = 30;
+    static int RandomPointsCount = 10;
 	public float spawnInterval = 1f; // 生成間隔時間（秒）
+
+    public bool CheetMode = false;
+    
 
 	#region Singleton
 
@@ -81,7 +84,7 @@ public class PlantSpawner : MonoBehaviour
 		else if (PlantType == PlantTypes.glass) // "String"
 		{
 			StartSpawning(SelectPoints, SpawnCount, stringPrefabs, PlaneObj.transform);
-			spawnStringPlant();
+			//spawnStringPlant();
 		}
 	}
 	#endregion
@@ -92,8 +95,8 @@ public class PlantSpawner : MonoBehaviour
 	List<Vector3> GenerateRandomPointsOnPlane(GameObject plane, int count)
 	{
 		List<Vector3> points = new List<Vector3>();
-		MeshRenderer planeRenderer = plane.GetComponent<MeshRenderer>();
-		Bounds bounds = planeRenderer.bounds;
+		BoxCollider boxCollider = plane.GetComponent<BoxCollider>();
+		Bounds bounds = boxCollider.bounds;
 
 		for (int i = 0; i < count; i++)
 		{
@@ -101,8 +104,9 @@ public class PlantSpawner : MonoBehaviour
 			float x = Random.Range(bounds.min.x, bounds.max.x);
 			float z = Random.Range(bounds.min.z, bounds.max.z);
 
-			// 固定 y 軸位置為平面高度
-			Vector3 randomPoint = new Vector3(x, plane.transform.position.y, z);
+			// 固定 y 軸位置為平面高度 -> localpos.y = 0
+			//Vector3 randomPoint = new Vector3(x, plane.transform.position.y, z);
+			Vector3 randomPoint = new Vector3(x, 0f, z);
 			points.Add(randomPoint);
 		}
 
@@ -162,6 +166,7 @@ public class PlantSpawner : MonoBehaviour
 	/// <param name="count">要生成的次數</param>
 	public void StartSpawning(List<Vector3> positions, int count, GameObject[] PrefabArr, Transform PlaneTransform)
 	{
+        SystemController.instance.FloorMappingBuildDebugTexts[3].text = "StartSpawning with count : " + count;
 		StartCoroutine(SpawnObjectsCoroutine(positions, count, PrefabArr, PlaneTransform));
 	}
 
@@ -197,19 +202,21 @@ public class PlantSpawner : MonoBehaviour
 			Debug.LogError("Prefab is not assigned!");
 			return;
 		}
-        GameObject spawnedObject = Instantiate(PlantPrefab);
+        /*
+        GameObject spawnedObject = Instantiate(PlantPrefab, PlaneTransform);
 		spawnedObject.transform.position = localPosition;
 		spawnedObject.transform.rotation = Quaternion.identity;
+        */
 
 
 		// 生成物件，設置為當前物件的子物件，並設定局部位置
-		/*
+		
 		GameObject spawnedObject = Instantiate(PlantPrefab, PlaneTransform);
 		spawnedObject.transform.localPosition = localPosition;
         spawnedObject.transform.rotation = Quaternion.identity;
         spawnedObject.transform.parent = null;
-        spawnedObject.transform.localScale = Vector3.one;
-		*/
+        //spawnedObject.transform.localScale = Vector3.one;
+		
 		//Debug.Log($"Spawned object at local position: {localPosition}");
 	}
 

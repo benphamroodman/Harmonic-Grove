@@ -41,18 +41,19 @@ public class FloorMapping : MonoBehaviour
 			//room.AnchorCreatedEvent.AddListener(TryMapToTable);
 			PlantSpawner.instance.spawnPlant(PlantType,gameObject);
 		}
+		//Destroy(gameObject, 12f);
 	}
 
 	public void MapToPlane(MRUKRoom room)
 	{
-		MRUKAnchor[] RoomAnchors = room.GetComponentsInChildren<MRUKAnchor>();
+		//MRUKAnchor[] RoomAnchors = room.Anchors;
 		MRUKAnchor Best = null;
-		if (RoomAnchors.Length > 0)
+		if (room.Anchors.Count > 0)
 		{
 			float distance = Mathf.Infinity;
 			Vector3 closestPosition = Vector3.zero, normal = Vector3.up;
 			Vector3 CurClosestPosition = Vector3.zero, CurNormal = Vector3.up;
-			foreach (var anchor in RoomAnchors)
+			foreach (var anchor in room.Anchors)
 			{
 				float CurDistance = anchor.GetClosestSurfacePosition(MapPosObj.transform.position, out CurClosestPosition, out CurNormal);
 				//Debug.Log("Distance between " + anchor.name + " is : " + CurDistance);
@@ -80,8 +81,13 @@ public class FloorMapping : MonoBehaviour
 				}
 			}
 
+			//transform.position = new Vector3(MapPosObj.transform.position.x, closestPosition.y, MapPosObj.transform.position.z);
+			//transform.position = MapPosObj.transform.position;
 			transform.position = closestPosition;
-			BuildDebugText[0].text = "Plane Pos : " + closestPosition;
+			SystemController.instance.FloorMappingBuildDebugTexts[0].text = "Hand Pos : " + MapPosObj.transform.position;
+			SystemController.instance.FloorMappingBuildDebugTexts[1].text = "Plane Pos : " + closestPosition;
+			SystemController.instance.FloorMappingBuildDebugTexts[2].text = "Try Best Pos : " + new Vector3(MapPosObj.transform.position.x, closestPosition.y, MapPosObj.transform.position.z);
+
 			//transform.rotation *= Quaternion.FromToRotation(transform.up, normal);
 		}
 	}

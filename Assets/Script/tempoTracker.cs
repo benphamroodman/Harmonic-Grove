@@ -8,6 +8,10 @@ public class TempoTracker : MonoBehaviour
 
     private float beatInterval;  // Interval in seconds (1/8th second)
 
+    public void SetBPM(float bpm)
+    {
+        this.bpm = bpm;
+    }
     void Start()
     {
         currentBeat = 1;
